@@ -15,6 +15,7 @@
 
 a.link {
     position: relative;
+    font-weight: 500;
 }
 
 a.link:after {
