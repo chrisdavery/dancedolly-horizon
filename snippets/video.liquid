@@ -17,6 +17,7 @@
   @param {object} video - The Shopify video object or a string containing a YouTube ID or Vimeo ID
   @param {string} section_id - The section ID
   @param {object} [block] - The block object
+  @param {boolean} [shorts] - Youtube shorts
 
   Video from URL:
 
@@ -54,7 +55,7 @@
       endif
 
       if video_loop
-        assign video_src = video_src | append: '&playlist=' | append: video | append: '&loop=1'
+        assign video_src = video_src | append: '&playlist=' | append: video | append: '&loop=1&modestbranding=1&controls=0&showinfo=0&rel=0'
       endif
       if disable_controls
         assign video_src = video_src | append: '&controls=0'
@@ -69,10 +70,10 @@
       endif
 
       if video_autoplay
-        assign video_src = video_src | append: '&autoplay=1&muted=1'
+        assign video_src = video_src | append: '&autoplay=1&muted=1&modestbranding=1&showinfo=0&rel=0'
       endif
       if video_loop
-        assign video_src = video_src | append: '&loop=1'
+        assign video_src = video_src | append: '&loop=1&modestbranding=1&controls=0&showinfo=0&rel=0'
       endif
       if disable_controls
         assign video_src = video_src | append: '&controls=0'
@@ -99,6 +100,10 @@
       assign controls = true
       assign enable_js_api = false
     endif
+
+    if video_autoplay == true
+      assign controls = false
+    endif
   %}
 
   {% capture video_tag %}
@@ -106,6 +111,12 @@
       {{
         video
         | external_video_url: autoplay: true, loop: video_loop, playlist: video.external_id, mute: '1', controls: controls, enablejsapi: enable_js_api
+        | external_video_tag: data-video-type: 'youtube'
+      }}
+    {% elsif shorts == true %}
+      {{
+        video
+        | external_video_url: autoplay: true, loop: video_loop, mute: '1', controls: controls, enablejsapi: enable_js_api
         | external_video_tag: data-video-type: 'youtube'
       }}
     {% elsif video.host == 'vimeo' %}
@@ -120,7 +131,7 @@
   {% endcapture %}
 {% endif %}
 
-{% if video != blank %}
+{% if video != blank or shorts == true %}
   <deferred-media
     class="{{ video_class }}"
     style="{{ video_style }}"
@@ -146,7 +157,7 @@
 
         <span class="deferred-media__poster-icon icon-play">
           <span class="visually-hidden">{{ 'accessibility.play_video' | t }}</span>
-          {{- 'icon-play.svg' | inline_asset_content -}}
+          {{- 'icon-play-rounded.svg' | inline_asset_content -}}
         </span>
       </button>
     {% endif %}
@@ -160,7 +171,7 @@
       >
         <span class="deferred-media__poster-icon icon-play hidden">
           <span class="visually-hidden">{{ 'accessibility.play_video' | t }}</span>
-          {{- 'icon-play.svg' | inline_asset_content -}}
+          {{- 'icon-play-rounded.svg' | inline_asset_content -}}
         </span>
         <span class="deferred-media__poster-icon icon-pause hidden">
           <span class="visually-hidden">{{ 'accessibility.pause_video' | t }}</span>
@@ -198,7 +209,7 @@
     {% endif %}
     <span class="video-placeholder-wrapper__poster-icon icon-play">
       <span class="visually-hidden">{{ 'accessibility.play_video' | t }}</span>
-      {{- 'icon-play.svg' | inline_asset_content -}}
+      {{- 'icon-play-rounded.svg' | inline_asset_content -}}
     </span>
   </div>
 {% endif %}

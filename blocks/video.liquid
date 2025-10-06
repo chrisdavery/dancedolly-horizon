@@ -1,3 +1,5 @@
+
+
 {% assign block_settings = block.settings %}
 
 {% capture video_style %}
@@ -14,6 +16,19 @@
     video_loop: block_settings.video_loop,
     video_style: video_style,
     video_preview_image: block_settings.video.preview_image,
+    additional_attributes: block.shopify_attributes,
+    section_id: section.id
+  %}
+{% elsif block_settings.source == 'shorts' %}
+  {% render 'video',
+    video_from_url: true,
+    video: block_settings.shorts_id,
+    video_class: 'spacing-style size-style border-style',
+    video_type: 'youtube',
+    shorts: true,
+    video_style: video_style,
+    video_alt: block_settings.alt,
+    video_preview_image: block_settings.cover_image,
     additional_attributes: block.shopify_attributes,
     section_id: section.id
   %}
@@ -54,6 +69,10 @@
         {
           "value": "url",
           "label": "t:options.video_external_url"
+        },
+        {
+          "value": "shorts",
+          "label": "Youtube Shorts"
         }
       ],
       "default": "uploaded"
@@ -71,6 +90,13 @@
       "info": "t:info.video_external",
       "accept": ["youtube", "vimeo"],
       "visible_if": "{{ block.settings.source == 'url' }}"
+    },
+    {
+      "type": "text",
+      "id": "shorts_id",
+      "label": "YT Shorts ID",
+      "info": "https://prnt.sc/PvWGW5x_1GfJ",
+      "visible_if": "{{ block.settings.source == 'shorts' }}"
     },
     {
       "type": "checkbox",
@@ -198,6 +224,23 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_radius",
+      "label": "Custom mobile radius",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile_border_radius",
+      "label": "Mobile corner radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ block.settings.enable_mobile_radius == true }}"
     },
     {
       "type": "header",

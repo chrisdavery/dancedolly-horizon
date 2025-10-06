@@ -1,4 +1,22 @@
+.header__column--right .header-menu {
+    margin-right: var(--gap-xl);
+}
+
+.header-actions__cart-icon svg {
+    height: 1.8rem !important;
+    width: auto !important;
+}
+
+.button {
+    font-weight: bold;
+    font-size: var(--font-size--xl);
+}
+
 @media (max-width: 749px) {
+    .header__columns {
+        padding-block: var(--padding-xs) !important;
+    }
+
     :is(.carousel--mobile-full-width) > .resource-list__carousel {
         grid-column: 1 / -1;
     }
