@@ -35,6 +35,9 @@ a.link:hover:after {
     .button.size-style {
         font-size: var(--font-size--2xl) !important;
     }
+    .header {
+        --header-padding: var(--padding-lg) !important;
+    }
 }
 
 @media (max-width: 749px) {
