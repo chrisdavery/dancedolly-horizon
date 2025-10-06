@@ -1,3 +1,5 @@
+
+
 {%- doc -%}
   Renders a heading block.
 
@@ -120,11 +122,19 @@
           "label": "24px"
         },
         {
+          "value": "1.92rem",
+          "label": "30px"
+        },
+        {
           "value": "2rem",
           "label": "32px"
         },
         {
           "value": "2.5rem",
+          "label": "45px"
+        },
+        {
+          "value": "2.8125rem",
           "label": "40px"
         },
         {
@@ -134,6 +144,10 @@
         {
           "value": "3.5rem",
           "label": "56px"
+        },
+        {
+          "value": "3.75rem",
+          "label": "60px"
         },
         {
           "value": "4.5rem",
@@ -263,6 +277,7 @@
       "type": "richtext",
       "id": "text",
       "label": "t:settings.text",
+      "default": "t:html_defaults.share_information_about_your",
       "visible_if": "{{ block.settings.read_only != true }}"
     },
     {
