@@ -28,7 +28,7 @@ a.link:after {
 }
 
 a.link:hover:after {
-    color: var(--color-primary-hover);
+    background: var(--color-primary-hover);
 }
 
 @media (min-width: 750px) {
