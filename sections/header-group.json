@@ -82,7 +82,10 @@
           "blocks": {}
         }
       },
-      "custom_css": [],
+      "custom_css": [
+        ".header-logo {transition: all ease 0.3s;}",
+        "@media (min-width: 750px) {.header:not([data-sticky-state=\"active\"]) .header-logo {position: absolute; top: 3rem; } .header-logo__image {--header-logo-image-width: 130px !important; --header-logo-image-height: auto !important; }}"
+      ],
       "settings": {
         "logo_position": "left",
         "menu_position": "right",
@@ -99,7 +102,7 @@
         "localization_row": "top",
         "section_width": "page-width",
         "section_height": "standard",
-        "enable_sticky_header": "scroll-up",
+        "enable_sticky_header": "never",
         "divider_width": 0,
         "divider_size": "page-width",
         "border_width": 0,

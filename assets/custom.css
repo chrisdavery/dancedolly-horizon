@@ -10,6 +10,13 @@
 .button {
     font-weight: bold;
     font-size: var(--font-size--xl);
+    --button-padding-block: 10px;
+}
+
+@media (min-width: 750px) {
+    .button.size-style {
+        font-size: var(--font-size--2xl) !important;
+    }
 }
 
 @media (max-width: 749px) {
