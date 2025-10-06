@@ -32,6 +32,16 @@ a.link:hover:after {
     background: var(--color-primary-hover);
 }
 
+.accordion .details__header {
+    padding-block: var(--padding-lg);
+    color: var(--color-foreground-heading);
+}
+
+summary .svg-wrapper {
+    height: var(--icon-size-md);
+    width: var(--icon-size-md);
+}
+
 @media (min-width: 750px) {
     .button.size-style {
         font-size: var(--font-size--2xl) !important;
