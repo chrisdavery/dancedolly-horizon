@@ -33,7 +33,8 @@
       ],
       "custom_css": [
         ".announcement-bar__slides:only-child {max-width: 100%;}",
-        ".section-background {background: linear-gradient(to right, #00abc5, #ed0973);}"
+        ".section-background {background: linear-gradient(to right, #00abc5, #ed0973);}",
+        ".announcement-bar__slides {width: 100%;}"
       ],
       "name": "t:names.announcement_bar",
       "settings": {

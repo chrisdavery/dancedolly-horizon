@@ -84,6 +84,8 @@
       {% when 'carousel' %}
         {% render 'resource-list-carousel',
           ref: 'Carousel',
+          autoplay: section.settings.autoplay,
+          autoplay_speed: section.settings.autoplay_speed,
           slides: list_items_array,
           slide_count: max_items,
           settings: section.settings,
@@ -112,6 +114,8 @@
     >
       {% render 'resource-list-carousel',
         ref: 'CarouselMobile',
+        autoplay: section.settings.autoplay,
+        autoplay_speed: section.settings.autoplay_speed,
         slides: list_items_array,
         slide_count: max_items,
         settings: section.settings,
