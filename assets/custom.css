@@ -1,3 +1,7 @@
+:root {
+    --icon-size-lg: 2rem !important;
+}
+
 .align-self-end {
     align-self: flex-end;
 }
@@ -49,6 +53,7 @@ summary .svg-wrapper {
 .align-between, .align-between > .group-block-content {
     justify-content: space-between;
 }
+
 /* 
 .email-signup__button--text {
     padding-inline: var(--padding-6xl) !important;

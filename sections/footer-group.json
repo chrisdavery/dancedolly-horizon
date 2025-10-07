@@ -86,10 +86,30 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "social_links_UCzN7E": {
+              "type": "social-links",
+              "settings": {
+                "facebook_url": "https://www.facebook.com/sample",
+                "instagram_url": "https://www.instagram.com",
+                "youtube_url": "https://www.youtube.com/sample",
+                "tiktok_url": "https://www.tiktok.com",
+                "twitter_url": "https://www.twitter.com",
+                "threads_url": "",
+                "linkedin_url": "",
+                "bluesky_url": "",
+                "snapchat_url": "",
+                "pinterest_url": "",
+                "tumblr_url": "",
+                "vimeo_url": "",
+                "custom_url": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "logo_MpmN3G"
+            "logo_MpmN3G",
+            "social_links_UCzN7E"
           ]
         },
         "group_ae3DCj": {
@@ -384,7 +404,8 @@
       ],
       "custom_css": [
         ".menu__heading,h5 {color: var(--color-foreground-heading);}",
-        ".menu__heading {padding-top: 0;}"
+        ".menu__heading {padding-top: 0;}",
+        ".social-icons__icon {color: var(--color-foreground-heading);}"
       ],
       "name": "t:names.footer",
       "settings": {
@@ -417,6 +438,7 @@
         },
         "social_icons": {
           "type": "social-links",
+          "disabled": true,
           "settings": {
             "facebook_url": "https://www.facebook.com/sample",
             "instagram_url": "https://www.instagram.com",
