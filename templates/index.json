@@ -64,6 +64,14 @@
             "css_class": ""
           },
           "blocks": {
+            "custom_liquid_fYY4wb": {
+              "type": "custom-liquid",
+              "name": "CSS Hide Header Logo",
+              "settings": {
+                "custom_liquid": "<style>\n@media (min-width: 750px) {\n.header-logo {\ndisplay: none;\n}\n}\n</style>"
+              },
+              "blocks": {}
+            },
             "logo_LiexJ6": {
               "type": "logo",
               "name": "t:names.logo",
@@ -72,7 +80,7 @@
                 "font": "heading",
                 "unit": "pixel",
                 "percent_width": 100,
-                "pixel_height": 112,
+                "pixel_height": 160,
                 "custom_mobile_size": false,
                 "unit_mobile": "percent",
                 "percent_width_mobile": 100,
@@ -166,6 +174,7 @@
             }
           },
           "block_order": [
+            "custom_liquid_fYY4wb",
             "logo_LiexJ6",
             "text_VzUR3L",
             "text_n3YLm8",
@@ -231,7 +240,7 @@
       "custom_css": [
         "{z-index: 2;}",
         "@media (min-width: 750px) {.logo-block {position: absolute; top: -11rem; }}",
-        "@media (max-width: 749px) {.vector-section {opacity: 0.15; }}"
+        "@media (max-width: 749px) {.vector-section {opacity: 0.15; } .logo-block {display: none; }}"
       ],
       "name": "t:names.image_with_text",
       "settings": {
