@@ -90,7 +90,7 @@ summary .svg-wrapper {
 
 .feat-left {
     left: 0 !important;
-    bottom: -6rem; 
+    bottom: 0; 
 }
 
 .feat-right {
