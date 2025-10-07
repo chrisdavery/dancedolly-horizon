@@ -2,6 +2,10 @@
     --icon-size-lg: 2rem !important;
 }
 
+.relative {
+    position: relative;
+}
+
 .align-self-end {
     align-self: flex-end;
 }
@@ -24,13 +28,14 @@
 a.link {
     position: relative;
     font-weight: 500;
+    color: var(--color-primary-button-background);
 }
 
 a.link:after {
     content: "";
     width: 100%;
-    height: .05rem;
-    background: var(--color-foreground);
+    height: .08rem;
+    background: var(--color-primary-button-background);
     display: block;
     position: absolute;
     bottom: -.2rem;
@@ -67,6 +72,21 @@ summary .svg-wrapper {
     font-size: var(--font-size--md) !important;
     font-weight: bold !important;
 } */
+
+.vector-section {
+    position: absolute;
+    z-index: -1;
+}
+
+.built-left {
+    left: 0 !important;
+    bottom: 0;
+}
+
+.built-right {
+    right: 0;
+    top: -20rem;
+}
 
 @media (min-width: 750px) {
     .button.size-style {

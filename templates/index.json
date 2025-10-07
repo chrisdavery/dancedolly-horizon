@@ -207,6 +207,10 @@
         "image_bQgWbV",
         "video_d3hafA"
       ],
+      "custom_css": [
+        "{z-index: 2;}",
+        "@media (max-width: 749px) {.vector-section {opacity: 0.15; }}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -223,7 +227,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-ec68fff7-a978-490e-b104-da948ea9b277",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -299,39 +303,6 @@
     "section_x67pee": {
       "type": "section",
       "blocks": {
-        "text_etYERU": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>BUILT FOR THE WAY DANCE FAMILIES MOVE</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "enable_mobile_size": false,
-            "mobile_font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "custom_mobile_padding": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "group_6npcpC": {
           "type": "group",
           "name": "t:names.group",
@@ -344,11 +315,11 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "custom_mobile_alignment": false,
             "mobile_vertical_alignment": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 32,
             "enable_mobile_gap": false,
             "mobile_gap": 12,
             "width": "custom",
@@ -385,6 +356,39 @@
             "css_class": ""
           },
           "blocks": {
+            "text_cBhwVX": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>BUILT FOR THE WAY DANCE FAMILIES MOVE</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "enable_mobile_size": false,
+                "mobile_font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_q6LEdh": {
               "type": "text",
               "name": "t:names.text",
@@ -417,32 +421,199 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_iKiAjm": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "LEARN MORE",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 15,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_q6LEdh"
+            "text_cBhwVX",
+            "text_q6LEdh",
+            "button_iKiAjm"
           ]
         },
-        "button_qNCLWU": {
-          "type": "button",
-          "name": "t:names.button",
+        "group_AGrqUf": {
+          "type": "group",
+          "name": "Vector",
           "settings": {
-            "label": "LEARN MORE",
-            "link": "shopify://collections/all",
+            "link": "",
             "open_in_new_tab": false,
-            "style_class": "link",
-            "width": "fit-content",
-            "custom_width": 15,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "reverse_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "custom_mobile_alignment": false,
+            "mobile_vertical_alignment": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "enable_mobile_gap": false,
+            "mobile_gap": 12,
+            "width": "custom",
+            "custom_width": 18,
+            "width_mobile": "custom",
+            "custom_width_mobile": 37,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_mobile_radius": false,
+            "mobile_border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0,
+            "css_class": "vector-section built-left"
           },
-          "blocks": {}
+          "blocks": {
+            "image_6KHKWe": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Ellipse_3_2_21948186-fc6e-4c00-8949-8be009eb9857.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_6KHKWe"
+          ]
+        },
+        "group_azTbUT": {
+          "type": "group",
+          "name": "Vector",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "reverse_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "custom_mobile_alignment": false,
+            "mobile_vertical_alignment": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "enable_mobile_gap": false,
+            "mobile_gap": 12,
+            "width": "custom",
+            "custom_width": 20,
+            "width_mobile": "custom",
+            "custom_width_mobile": 36,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_mobile_radius": false,
+            "mobile_border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0,
+            "css_class": "vector-section built-right"
+          },
+          "blocks": {
+            "image_JerYwN": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Ellipse_4_6.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_JerYwN"
+          ]
         }
       },
       "block_order": [
-        "text_etYERU",
         "group_6npcpC",
-        "button_qNCLWU"
+        "group_AGrqUf",
+        "group_azTbUT"
+      ],
+      "custom_css": [
+        "@media (max-width: 749px) {.vector-section {opacity: 0.1; }}"
       ],
       "name": "t:names.rich_text_section",
       "settings": {
@@ -454,11 +625,11 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 25,
+        "gap": 0,
         "enable_mobile_gap": false,
         "mobile_gap": 12,
-        "section_width": "page-width",
-        "section_height": "small",
+        "section_width": "full-width",
+        "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "scheme-461a79ff-b5f5-42d5-9688-cb0f1758a688",
         "background_media": "none",
@@ -479,7 +650,7 @@
         "mobile-padding-block-end": 68,
         "mobile-padding-inline-start": 0,
         "mobile-padding-inline-end": 0,
-        "css_class": "",
+        "css_class": "relative",
         "add_section_id": false,
         "section_id": ""
       }
@@ -2157,7 +2328,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/man_jumping-fotor-20250329145128.png",
+                "image": "shopify://shop_images/piclumen-1759818972080.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
