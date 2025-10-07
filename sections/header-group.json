@@ -32,7 +32,8 @@
         "announcement_BxgCk9"
       ],
       "custom_css": [
-        ".announcement-bar__slides:only-child {max-width: 100%;}"
+        ".announcement-bar__slides:only-child {max-width: 100%;}",
+        ".section-background {background: linear-gradient(to right, #00ABC5, #ED0973);}"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
