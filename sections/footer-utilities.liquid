@@ -66,10 +66,16 @@
         .footer-utilities__text:nth-child(1)
           + .footer-utilities__text:nth-child(2)
           + .footer-utilities__icons:nth-child(3)
+      ),
+    .utilities:has(
+        .footer-utilities__text:nth-child(1)
+          + .footer-utilities__text:nth-child(2)
+          + .payment-icons:nth-child(3)
       ) {
-      grid-template-columns: auto auto 1fr;
+      grid-template-columns: auto 1fr auto;
 
-      .footer-utilities__icons:nth-child(3) {
+      .footer-utilities__icons:nth-child(3),
+      .payment-icons:nth-child(3) {
         justify-content: end;
       }
     }
@@ -80,10 +86,16 @@
         .footer-utilities__text:nth-child(1)
           + .footer-utilities__icons:nth-child(2)
           + .footer-utilities__text:nth-child(3)
+      ),
+    .utilities:has(
+        .footer-utilities__text:nth-child(1)
+          + .payment-icons:nth-child(2)
+          + .footer-utilities__text:nth-child(3)
       ) {
       grid-template-columns: 1fr auto 1fr;
 
-      .footer-utilities__icons:nth-child(2) {
+      .footer-utilities__icons:nth-child(2),
+      .payment-icons:nth-child(2) {
         justify-self: center;
       }
 
@@ -96,6 +108,11 @@
     /* Example: Socials left, Policy right, Copyright right */
     .utilities:has(
         .footer-utilities__icons:nth-child(1)
+          + .footer-utilities__text:nth-child(2)
+          + .footer-utilities__text:nth-child(3)
+      ),
+    .utilities:has(
+        .payment-icons:nth-child(1)
           + .footer-utilities__text:nth-child(2)
           + .footer-utilities__text:nth-child(3)
       ) {
@@ -120,7 +137,8 @@
 
     /* B : A => B left, A right */
     /* Example: Socials left, Policy right */
-    .utilities:has(.footer-utilities__icons:first-child:nth-last-child(2) + .footer-utilities__text:last-child) {
+    .utilities:has(.footer-utilities__icons:first-child:nth-last-child(2) + .footer-utilities__text:last-child),
+    .utilities:has(.payment-icons:first-child:nth-last-child(2) + .footer-utilities__text:last-child) {
       grid-template-columns: 1fr 1fr;
 
       .footer-utilities__text:nth-child(2) {
@@ -129,11 +147,13 @@
     }
 
     /* A : B => A left, B right */
-    /* Example: Socials left, Policy right */
-    .utilities:has(.footer-utilities__text:first-child:nth-last-child(2) + .footer-utilities__icons:last-child) {
+    /* Example: Policy left, Socials right */
+    .utilities:has(.footer-utilities__text:first-child:nth-last-child(2) + .footer-utilities__icons:last-child),
+    .utilities:has(.footer-utilities__text:first-child:nth-last-child(2) + .payment-icons:last-child) {
       grid-template-columns: 1fr 1fr;
 
-      .footer-utilities__icons:nth-child(2) {
+      .footer-utilities__icons:nth-child(2),
+      .payment-icons:nth-child(2) {
         justify-self: end;
       }
     }
@@ -152,11 +172,13 @@
 
     /* B => B left */
     /* Example: Socials left */
-    .utilities:has(.footer-utilities__icons:first-child:nth-last-child(1)) {
+    .utilities:has(.footer-utilities__icons:first-child:nth-last-child(1)),
+    .utilities:has(.payment-icons:first-child:nth-last-child(1)) {
       grid-template-columns: 1fr;
       justify-content: start;
 
-      .footer-utilities__icons:nth-child(1) {
+      .footer-utilities__icons:nth-child(1),
+      .payment-icons:nth-child(1) {
         justify-self: start;
       }
     }
@@ -249,6 +271,9 @@
     },
     {
       "type": "social-links"
+    },
+    {
+      "type": "payment-icons"
     }
   ],
   "presets": [
