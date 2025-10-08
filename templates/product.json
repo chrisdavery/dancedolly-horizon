@@ -24,7 +24,7 @@
             "slideshow_controls_style": "thumbnails",
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "left",
-            "thumbnail_width": 72,
+            "thumbnail_width": 100,
             "aspect_ratio": "1",
             "constrain_to_viewport": true,
             "media_fit": "contain",
@@ -45,7 +45,7 @@
           "static": true,
           "settings": {
             "width": "custom",
-            "custom_width": 70,
+            "custom_width": 78,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -127,14 +127,14 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h2",
+                    "type_preset": "h1",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "pretty",
-                    "color": "var(--color-foreground)",
+                    "color": "var(--color-foreground-heading)",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -182,6 +182,39 @@
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
+              },
+              "blocks": {}
+            },
+            "text_U8JQQb": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h4>PRE-ORDER. GIVE BACK. GET ORGANIZED.</h4><p>Pre-order now and get a FREE Costume Box ($100 value) with your Dance Dolly purchase AND we’ll donate $10 to Dancers Against Cancer.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "enable_mobile_size": false,
+                "mobile_font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
               },
               "blocks": {}
             },
@@ -267,14 +300,180 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "accordion_7BYVrD": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "caret",
+                "dividers": true,
+                "type_preset": "h4",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_becb3e": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "WHAT’S INCLUDED?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_JnhNpE": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_JnhNpE"
+                  ]
+                },
+                "accordion_row_dHcxCa": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "SPECS",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_AdeQmk": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.specs | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_AdeQmk"
+                  ]
+                },
+                "accordion_row_WaNHn8": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "WARRANTY INFORMATION",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_BVtrpJ": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_BVtrpJ"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_becb3e",
+                "accordion_row_dHcxCa",
+                "accordion_row_WaNHn8"
+              ]
             }
           },
           "block_order": [
             "group_icgrde",
             "divider_VJhene",
+            "text_U8JQQb",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
-            "text_aEtTtq"
+            "text_aEtTtq",
+            "accordion_7BYVrD"
           ]
         }
       },
@@ -284,7 +483,7 @@
         "equal_columns": true,
         "limit_details_width": false,
         "gap": 48,
-        "color_scheme": "",
+        "color_scheme": "scheme-f7d134e6-ddd6-47fa-9428-1d7c551dd1f0",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
