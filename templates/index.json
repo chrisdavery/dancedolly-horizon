@@ -64,34 +64,6 @@
             "css_class": ""
           },
           "blocks": {
-            "custom_liquid_fYY4wb": {
-              "type": "custom-liquid",
-              "name": "CSS Hide Header Logo",
-              "settings": {
-                "custom_liquid": "<style>\n@media (min-width: 750px) {\n.header-logo {\ndisplay: none;\n}\n}\n</style>"
-              },
-              "blocks": {}
-            },
-            "logo_LiexJ6": {
-              "type": "logo",
-              "name": "t:names.logo",
-              "settings": {
-                "inverse": false,
-                "font": "heading",
-                "unit": "pixel",
-                "percent_width": 100,
-                "pixel_height": 120,
-                "custom_mobile_size": false,
-                "unit_mobile": "percent",
-                "percent_width_mobile": 100,
-                "pixel_height_mobile": 120,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "text_VzUR3L": {
               "type": "text",
               "name": "t:names.text",
@@ -174,8 +146,6 @@
             }
           },
           "block_order": [
-            "custom_liquid_fYY4wb",
-            "logo_LiexJ6",
             "text_VzUR3L",
             "text_n3YLm8",
             "button_6G943c"
