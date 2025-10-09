@@ -268,6 +268,19 @@
               },
               "block_order": []
             },
+            "payment_icons_aD8JpC": {
+              "type": "payment-icons",
+              "name": "t:names.payment_icons",
+              "settings": {
+                "horizontal_alignment": "center",
+                "gap": 10,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_aEtTtq": {
               "type": "text",
               "name": "Product description",
@@ -519,6 +532,7 @@
             "text_U8JQQb",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "payment_icons_aD8JpC",
             "text_aEtTtq",
             "accordion_7BYVrD"
           ]
