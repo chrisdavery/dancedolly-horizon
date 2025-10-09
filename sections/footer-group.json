@@ -91,7 +91,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>THE DANCE DOLLY<br/></strong>Patent #: 0010101</p>",
+                "text": "<p><strong>THE DANCE DOLLY<br/></strong>Patent pending</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
