@@ -1885,7 +1885,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>SMOOTH, SAFE MOBILITY</h2>",
+                "text": "<h3>Smooth, safe mobility</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1918,7 +1918,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Four lockable swivel wheels and two fixed wheels ensure stability and sway-free movement</p>",
+                "text": "<p>Quiet, high-quality wheels with foot brakes for confident stops.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
