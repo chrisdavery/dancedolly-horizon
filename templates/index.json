@@ -67,9 +67,8 @@
             "text_VzUR3L": {
               "type": "text",
               "name": "t:names.text",
-              "disabled": true,
               "settings": {
-                "text": "<p><em>From Hot Mess to Organized Pro</em></p>",
+                "text": "<p><em>The all-in-one system for stress-free competition days.</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -187,6 +186,7 @@
                 "text_MTJUjz": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p>The all-in-one system for stress-free competition days.</p>",
                     "width": "fit-content",
