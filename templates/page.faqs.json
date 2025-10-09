@@ -447,6 +447,98 @@
                   "block_order": [
                     "text_qJUGbh"
                   ]
+                },
+                "accordion_row_pgpHWH": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How much can it carry?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_Rz8fJF": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Designed for everyday dance loads; final weight rating posted before shipping.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_Rz8fJF"
+                  ]
+                },
+                "accordion_row_AeGPYK": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How fast does it set up?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_6kw8pT": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Minutes—no tools required. Roll in, pop up the rack, you’re ready.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_6kw8pT"
+                  ]
                 }
               },
               "block_order": [
@@ -455,7 +547,9 @@
                 "accordion_row_PkhMgX",
                 "accordion_row_b3fWez",
                 "accordion_row_XrmcWy",
-                "accordion_row_jyrTXG"
+                "accordion_row_jyrTXG",
+                "accordion_row_pgpHWH",
+                "accordion_row_AeGPYK"
               ]
             },
             "button_WtMyhp": {
