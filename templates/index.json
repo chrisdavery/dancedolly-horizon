@@ -3118,7 +3118,7 @@
                     "accordion_row_34FyNb": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "WILL IT FIT MY DANCE BAG?",
+                        "heading": "What is your refund/return policy?",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 20
@@ -3127,7 +3127,7 @@
                         "text_BRkiCR": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                            "text": "<p>Full refund anytime before shipment. After delivery: TBD (recommend 30-day returns).</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
