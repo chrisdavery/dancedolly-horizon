@@ -1337,7 +1337,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<p>Smart, compact design</p>",
+                "text": "<h3>Smart, compact design</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1474,7 +1474,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>EFFORTLESS BAG TRANSPORT</h2>",
+                "text": "<h3>Fits any dance bag</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1507,7 +1507,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Folds flat for easy transport <br/>and storage</p>",
+                "text": "<p>Extra-wide loading board carries every major bag—no wobble.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
