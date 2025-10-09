@@ -3313,7 +3313,7 @@
                   "type": "button",
                   "settings": {
                     "label": "See All FAQs",
-                    "link": "shopify://pages/our-story",
+                    "link": "shopify://pages/faqs",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "custom",
