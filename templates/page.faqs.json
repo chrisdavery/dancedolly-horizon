@@ -153,7 +153,7 @@
               },
               "blocks": {}
             },
-            "accordion_tK8EwC": {
+            "accordion_cCa4Qy": {
               "type": "accordion",
               "name": "t:names.accordion",
               "settings": {
@@ -172,16 +172,16 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_faQ4YY": {
+                "accordion_row_DkNan7": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "WHEN WILL THE FIRST DANCE DOLLIES SHIP?",
+                    "heading": "When will the first Dance Dollies ship?",
                     "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_UYQpnd": {
+                    "text_4XyTQD": {
                       "type": "text",
                       "settings": {
                         "text": "<p>We’re targeting deliveries by the end of Q1 2026.</p>",
@@ -215,22 +215,22 @@
                     }
                   },
                   "block_order": [
-                    "text_UYQpnd"
+                    "text_4XyTQD"
                   ]
                 },
-                "accordion_row_ywf7Yz": {
+                "accordion_row_JwC9Y7": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "IS THIS A PRE-ORDER?",
+                    "heading": "How much does the Dance Dolly weigh?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_yFYbPB": {
+                    "text_qVyVEY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>Under 20 lbs.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -261,22 +261,22 @@
                     }
                   },
                   "block_order": [
-                    "text_yFYbPB"
+                    "text_qVyVEY"
                   ]
                 },
-                "accordion_row_qtjKEL": {
+                "accordion_row_PkhMgX": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "WILL IT FIT MY DANCE BAG?",
+                    "heading": "What is your refund/return policy?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_CDCPiX": {
+                    "text_dK3ET6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>Full refund anytime before shipment. After delivery: TBD (recommend 30-day returns).</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -307,22 +307,22 @@
                     }
                   },
                   "block_order": [
-                    "text_CDCPiX"
+                    "text_dK3ET6"
                   ]
                 },
-                "accordion_row_Br4E4Q": {
+                "accordion_row_b3fWez": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "DOES IT FOLD FLAT WHEN NOT IN USE?",
+                    "heading": "Is this a pre-order?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_rrcP3L": {
+                    "text_PwAt6g": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>Yes. Pre-orders reserve your spot in the first production run.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -353,22 +353,22 @@
                     }
                   },
                   "block_order": [
-                    "text_rrcP3L"
+                    "text_PwAt6g"
                   ]
                 },
-                "accordion_row_wfMWf8": {
+                "accordion_row_XrmcWy": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "IS THERE A WARRANTY?",
+                    "heading": "When is my card charged for a pre-order?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_RQKAi6": {
+                    "text_YfaaC6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -399,22 +399,22 @@
                     }
                   },
                   "block_order": [
-                    "text_RQKAi6"
+                    "text_YfaaC6"
                   ]
                 },
-                "accordion_row_hmwrPV": {
+                "accordion_row_jyrTXG": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "WHAT IS THE DANCE BOX?",
+                    "heading": "Will it fit my dance bag?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_PmiGEt": {
+                    "text_qJUGbh": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>Yes—our wide loading board is designed to carry any major dance bag.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -445,17 +445,17 @@
                     }
                   },
                   "block_order": [
-                    "text_PmiGEt"
+                    "text_qJUGbh"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_faQ4YY",
-                "accordion_row_ywf7Yz",
-                "accordion_row_qtjKEL",
-                "accordion_row_Br4E4Q",
-                "accordion_row_wfMWf8",
-                "accordion_row_hmwrPV"
+                "accordion_row_DkNan7",
+                "accordion_row_JwC9Y7",
+                "accordion_row_PkhMgX",
+                "accordion_row_b3fWez",
+                "accordion_row_XrmcWy",
+                "accordion_row_jyrTXG"
               ]
             },
             "button_WtMyhp": {
@@ -475,7 +475,7 @@
           },
           "block_order": [
             "text_VpqAB9",
-            "accordion_tK8EwC",
+            "accordion_cCa4Qy",
             "button_WtMyhp"
           ]
         }
