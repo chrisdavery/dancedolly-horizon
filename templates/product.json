@@ -1435,6 +1435,9 @@
         "group_PDpWza",
         "group_NRwX9V"
       ],
+      "custom_css": [
+        "{--page-width: 84rem;}"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "row",
