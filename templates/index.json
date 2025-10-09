@@ -1611,7 +1611,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>COMFORTABLE, CONTROLLED PULLING </h2>",
+                "text": "<h3>Adjustable T-handle</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1644,7 +1644,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Our built-in telescopeing T-handle tilts to 90° for smooth transport around the venue</p>",
+                "text": "<p>Telescopes and tilts to 90° for comfortable, controlled pulling.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1748,7 +1748,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>POP-UP COSTUME RACK</h2>",
+                "text": "<h3>Pop-up costume rack</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1781,7 +1781,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Costume rod with 12\" extensions clicks in fast so outfits are organized <br/>and ready to roll</p>",
+                "text": "<p>Crossbar clicks in fast so outfits are organized and ready.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
