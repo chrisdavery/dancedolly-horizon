@@ -173,18 +173,6 @@
                 "price_tVjtKg"
               ]
             },
-            "divider_VJhene": {
-              "type": "_divider",
-              "name": "t:names.divider",
-              "settings": {
-                "thickness": 1,
-                "corner_radius": "square",
-                "width_percent": 100,
-                "padding-block-start": 0,
-                "padding-block-end": 0
-              },
-              "blocks": {}
-            },
             "text_U8JQQb": {
               "type": "text",
               "name": "t:names.text",
@@ -215,6 +203,18 @@
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "divider_VJhene": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "thickness": 1,
+                "corner_radius": "square",
+                "width_percent": 100,
+                "padding-block-start": 0,
+                "padding-block-end": 28
               },
               "blocks": {}
             },
@@ -528,8 +528,8 @@
           },
           "block_order": [
             "group_icgrde",
-            "divider_VJhene",
             "text_U8JQQb",
+            "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "payment_icons_aD8JpC",
