@@ -732,6 +732,9 @@
         "group_MMhwaQ",
         "group_PbqHB9"
       ],
+      "custom_css": [
+        "{--page-width: 65rem;}"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "row",
