@@ -2332,7 +2332,6 @@
                 },
                 "slide_7Ud7wP": {
                   "type": "_slide",
-                  "disabled": true,
                   "settings": {
                     "media_type_1": "image",
                     "image_1": "shopify://shop_images/piclumen-1759818972080.png",
@@ -2359,7 +2358,6 @@
                 },
                 "slide_JAMqAY": {
                   "type": "_slide",
-                  "disabled": true,
                   "settings": {
                     "media_type_1": "image",
                     "image_1": "shopify://shop_images/piclumen-1759818972080.png",
@@ -2747,7 +2745,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-68278261-c81c-4dba-86d2-1ecb3ea0903b",
+        "color_scheme": "scheme-0bb1da98-887a-4cb0-adbe-f9587f88299e",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
