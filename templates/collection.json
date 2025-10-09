@@ -175,7 +175,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 32,
+        "gap": 42,
         "enable_mobile_gap": false,
         "mobile_gap": 12,
         "section_width": "page-width",
