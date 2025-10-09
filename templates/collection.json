@@ -18,7 +18,7 @@
           "settings": {
             "image": "shopify://shop_images/man_jumping-fotor-20250329145128_5a1f7496-b49a-4774-b931-28dcb4add0c1.png",
             "link": "",
-            "image_ratio": "adapt",
+            "image_ratio": "landscape",
             "width": "custom",
             "custom_width": 80,
             "width_mobile": "fill",
