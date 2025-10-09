@@ -3164,7 +3164,7 @@
                     "accordion_row_R99tpD": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "DOES IT FOLD FLAT WHEN NOT IN USE?",
+                        "heading": "Is this a pre-order?",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 20
@@ -3173,7 +3173,7 @@
                         "text_zweaVp": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                            "text": "<p>Yes. Pre-orders reserve your spot in the first production run.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -3210,7 +3210,7 @@
                     "accordion_row_zaGkUH": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "IS THERE A WARRANTY?",
+                        "heading": "When is my card charged for a pre-order?",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 20
@@ -3219,7 +3219,7 @@
                         "text_UTAx7e": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                            "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -3256,7 +3256,7 @@
                     "accordion_row_8QtfHi": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "WHAT IS THE DANCE BOX?",
+                        "heading": "Will it fit my dance bag?",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 20
@@ -3265,7 +3265,7 @@
                         "text_gmXGEA": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                            "text": "<p>Yes—our wide loading board is designed to carry any major dance bag.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
