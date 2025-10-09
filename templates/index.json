@@ -2193,7 +2193,7 @@
         "padding-block-end": 100,
         "custom_mobile_padding": true,
         "mobile-padding-block-start": 72,
-        "mobile-padding-block-end": 0,
+        "mobile-padding-block-end": 72,
         "mobile-padding-inline-start": 0,
         "mobile-padding-inline-end": 0,
         "css_class": ""
