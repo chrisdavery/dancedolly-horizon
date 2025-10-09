@@ -2022,7 +2022,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>GROWS WITH YOUR NEEDS</h2>",
+                "text": "<h3>Optional accessories</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2055,7 +2055,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Optional foldable costume box with protective cover, insulated lining and pockets  add storage and flexibility for bigger competition days</p>",
+                "text": "<p>Add the insulated Dance Box, leash, and rod extensions as needed.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
