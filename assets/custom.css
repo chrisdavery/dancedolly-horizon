@@ -78,16 +78,6 @@ summary .svg-wrapper {
     z-index: -1;
 }
 
-.built-left {
-    left: 0 !important;
-    bottom: 0;
-}
-
-.built-right {
-    right: 0;
-    top: -20rem;
-}
-
 .feat-left {
     left: 0 !important;
     bottom: 0; 
