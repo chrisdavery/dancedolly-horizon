@@ -723,6 +723,52 @@
                   "block_order": [
                     "text_TAKTUU"
                   ]
+                },
+                "accordion_row_VwNYUJ": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What is the Dance Box?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_n36hhb": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>An optional, insulated, pocketed organizer that folds flat and straps securely to the base.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "enable_mobile_size": false,
+                        "mobile_font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "custom_mobile_padding": false,
+                        "mobile-padding-block-start": 0,
+                        "mobile-padding-block-end": 0,
+                        "mobile-padding-inline-start": 0,
+                        "mobile-padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_n36hhb"
+                  ]
                 }
               },
               "block_order": [
@@ -737,7 +783,8 @@
                 "accordion_row_rHBHFw",
                 "accordion_row_hYHijW",
                 "accordion_row_PUChYh",
-                "accordion_row_6CCMee"
+                "accordion_row_6CCMee",
+                "accordion_row_VwNYUJ"
               ]
             },
             "button_WtMyhp": {
