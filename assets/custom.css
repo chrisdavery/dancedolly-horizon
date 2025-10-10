@@ -102,7 +102,7 @@ summary .svg-wrapper {
     border-radius: calc(var(--media-radius) / 2);
 }
 
-.mega-menu__content-list-item .resource-card__title {
+.mega-menu__content-list-item .resource-card__title, .menu-drawer__featured-content-list-item .resource-card__title {
     font-family: var(--font-h5--family);
     font-style: var(--font-h5--style);
     font-weight: var(--font-h5--weight);
@@ -111,6 +111,22 @@ summary .svg-wrapper {
     letter-spacing: var(--font-h5--letter-spacing);
     text-transform: var(--font-h5--case);
     color: var(--color-foreground-heading);
+}
+
+.menu-drawer__featured-content-list-item .resource-card__title {
+    font-size: var(--font-size--xs) !important;
+}
+
+.menu-drawer__menu-item {
+    color: var(--color-primary) !important;
+}
+
+.menu-drawer__menu-item--mainlist {
+    font-size: var(--font-size--xl) !important;
+}
+
+.menu-drawer__menu .menu-drawer__list-item--flat {
+    margin-block-end: 0 !important;
 }
 
 @media (max-width: 1600px) and (min-width: 750px) {
