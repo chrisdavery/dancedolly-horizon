@@ -102,6 +102,10 @@ summary .svg-wrapper {
     border-radius: calc(var(--media-radius) / 2);
 }
 
+.mega-menu__content-list-item .resource-card__title {
+    
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
