@@ -108,6 +108,12 @@ summary .svg-wrapper {
     }
 }
 
+@media screen and (min-width: 750px) {
+    .facets--horizontal .facets__summary, .facets--horizontal .products-count-wrapper, .sorting-filter__label {
+        font-size: var(--font-size--sm) !important;
+    }
+}
+
 @media (min-width: 750px) {
     .button.size-style {
         font-size: var(--font-size--2xl) !important;
