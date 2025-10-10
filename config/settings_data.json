@@ -85,6 +85,13 @@
     "variant_button_width": "equal-width-buttons",
     "button_font_weight_secondary": "default",
     "content_for_index": [],
+    "blocks": {
+      "8552734807663135353": {
+        "type": "shopify://apps/preproduct-next-gen-pre-order/blocks/preproduct_app_embed_block/2762c018-a41c-4de1-8397-e1a2010a74fa",
+        "disabled": true,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
