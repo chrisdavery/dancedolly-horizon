@@ -553,7 +553,10 @@
         "gap": 48,
         "color_scheme": "scheme-f7d134e6-ddd6-47fa-9428-1d7c551dd1f0",
         "padding-block-start": 20,
-        "padding-block-end": 72
+        "padding-block-end": 72,
+        "custom_mobile_padding": true,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 72
       }
     },
     "section_Wn4UPT": {
@@ -576,8 +579,8 @@
             "mobile_vertical_alignment": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 62,
-            "enable_mobile_gap": false,
-            "mobile_gap": 12,
+            "enable_mobile_gap": true,
+            "mobile_gap": 24,
             "width": "custom",
             "custom_width": 90,
             "width_mobile": "fill",
@@ -680,7 +683,7 @@
                 "padding-inline-end": 62,
                 "custom_mobile_padding": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 62,
+                "mobile-padding-block-end": 36,
                 "mobile-padding-inline-start": 15,
                 "mobile-padding-inline-end": 15,
                 "css_class": ""
@@ -827,8 +830,8 @@
             "mobile_vertical_alignment": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 62,
-            "enable_mobile_gap": false,
-            "mobile_gap": 12,
+            "enable_mobile_gap": true,
+            "mobile_gap": 24,
             "width": "custom",
             "custom_width": 90,
             "width_mobile": "fill",
@@ -908,8 +911,8 @@
                 "padding-inline-start": 62,
                 "padding-inline-end": 0,
                 "custom_mobile_padding": true,
-                "mobile-padding-block-start": 62,
-                "mobile-padding-block-end": 62,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 36,
                 "mobile-padding-inline-start": 15,
                 "mobile-padding-inline-end": 15,
                 "css_class": ""
