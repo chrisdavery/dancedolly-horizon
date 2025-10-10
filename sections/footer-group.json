@@ -11,6 +11,23 @@
   "type": "footer",
   "name": "t:names.footer",
   "sections": {
+    "divider_VbbFYf": {
+      "type": "divider",
+      "custom_css": [
+        ".divider__line {border-color: var(--color-primary-button-background);}"
+      ],
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 3,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -639,6 +656,7 @@
     }
   },
   "order": [
+    "divider_VbbFYf",
     "footer",
     "utilities"
   ]
