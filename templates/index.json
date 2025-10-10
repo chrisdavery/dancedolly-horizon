@@ -154,7 +154,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Everything Organized. Ready to Roll.</p>",
+                    "text": "<p>Everything Organized.<br/>Ready to Roll.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
