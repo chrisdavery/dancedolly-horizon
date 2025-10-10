@@ -103,7 +103,14 @@ summary .svg-wrapper {
 }
 
 .mega-menu__content-list-item .resource-card__title {
-    
+    font-family: var(--font-h5--family);
+    font-style: var(--font-h5--style);
+    font-weight: var(--font-h5--weight);
+    font-size: var(--font-h5--size);
+    line-height: var(--font-h5--line-height);
+    letter-spacing: var(--font-h5--letter-spacing);
+    text-transform: var(--font-h5--case);
+    color: var(--color-foreground-heading);
 }
 
 @media (max-width: 1600px) and (min-width: 750px) {
