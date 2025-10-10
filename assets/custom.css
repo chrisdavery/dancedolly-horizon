@@ -115,6 +115,9 @@ summary .svg-wrapper {
     .email-signup__button {
         min-width: 14rem;
     }
+    .product-information__grid:not(:has(.product-information__media:empty)).product-information--media-left .product-information__media {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 749px) {
