@@ -116,7 +116,7 @@ summary .svg-wrapper {
         min-width: 14rem;
     }
     .product-information__grid:not(:has(.product-information__media:empty)).product-information--media-left .product-information__media {
-        padding-right: 0;
+        padding-right: 0 !important;
     }
 }
 
