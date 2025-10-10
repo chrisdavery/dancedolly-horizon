@@ -1,5 +1,8 @@
 :root {
     --icon-size-lg: 2rem !important;
+    --font-subheading--family: 'Fresh Mango', serif !important;
+    --font-subheading--style: normal !important;
+    --font-subheading--weight: 400 !important;
 }
 
 .relative {

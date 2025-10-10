@@ -40,3 +40,14 @@
   >
 {%- endunless -%}
 {% # theme-check-enable %}
+
+{% style %}
+  @font-face {
+    font-family: 'Fresh Mango';
+    src: url({{ 'FreshMango-Regular.woff2' | asset_url }}) format('woff2'),
+        url({{ 'FreshMango-Regular.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+{% endstyle %}
