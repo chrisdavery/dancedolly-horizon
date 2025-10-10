@@ -1488,6 +1488,526 @@
         "section_id": ""
       }
     },
+    "section_kNAGEx": {
+      "type": "section",
+      "blocks": {
+        "text_ArKVeY": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>FAQS</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "enable_mobile_size": true,
+            "mobile_font_size": "2.25rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_tVqdzY": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "reverse_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "custom_mobile_alignment": false,
+            "mobile_vertical_alignment": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 56,
+            "enable_mobile_gap": false,
+            "mobile_gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_mobile_radius": false,
+            "mobile_border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0,
+            "css_class": ""
+          },
+          "blocks": {
+            "group_qrVggH": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "reverse_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "custom_mobile_alignment": false,
+                "mobile_vertical_alignment": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 32,
+                "enable_mobile_gap": false,
+                "mobile_gap": 12,
+                "width": "custom",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "enable_mobile_radius": false,
+                "mobile_border_radius": 0,
+                "placeholder": "",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0,
+                "css_class": ""
+              },
+              "blocks": {
+                "accordion_miUnUh": {
+                  "type": "accordion",
+                  "name": "t:names.accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h4",
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "accordion_row_mbfFia": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "When will the first Dance Dollies ship?",
+                        "open_by_default": true,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_JE8cVW": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>We’re targeting deliveries by the end of Q1 2026.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_JE8cVW"
+                      ]
+                    },
+                    "accordion_row_H96Abj": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "How much does the Dance Dolly weigh?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_izyy4X": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>Under 20 lbs.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_izyy4X"
+                      ]
+                    },
+                    "accordion_row_6qAqjg": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "What is your refund/return policy?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_iP8KJE": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>Full refund anytime before shipment. After delivery: TBD (recommend 30-day returns).</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_iP8KJE"
+                      ]
+                    },
+                    "accordion_row_RnNKfn": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Is this a pre-order?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_jTiEyK": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>Yes. Pre-orders reserve your spot in the first production run.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_jTiEyK"
+                      ]
+                    },
+                    "accordion_row_e46Ywj": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "When is my card charged for a pre-order?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_38KQaC": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_38KQaC"
+                      ]
+                    },
+                    "accordion_row_LxmTBL": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Will it fit my dance bag?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
+                      },
+                      "blocks": {
+                        "text_UXX93D": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>Yes—our wide loading board is designed to carry any major dance bag.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "enable_mobile_size": false,
+                            "mobile_font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0,
+                            "custom_mobile_padding": false,
+                            "mobile-padding-block-start": 0,
+                            "mobile-padding-block-end": 0,
+                            "mobile-padding-inline-start": 0,
+                            "mobile-padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_UXX93D"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "accordion_row_mbfFia",
+                    "accordion_row_H96Abj",
+                    "accordion_row_6qAqjg",
+                    "accordion_row_RnNKfn",
+                    "accordion_row_e46Ywj",
+                    "accordion_row_LxmTBL"
+                  ]
+                },
+                "button_cetBp6": {
+                  "type": "button",
+                  "settings": {
+                    "label": "See All FAQs",
+                    "link": "shopify://pages/faqs",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "custom",
+                    "custom_width": 45,
+                    "width_mobile": "custom",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "accordion_miUnUh",
+                "button_cetBp6"
+              ]
+            }
+          },
+          "block_order": [
+            "group_qrVggH"
+          ]
+        }
+      },
+      "block_order": [
+        "text_ArKVeY",
+        "group_tVqdzY"
+      ],
+      "custom_css": [
+        ".accordion .details__header {color: #00abc5;}"
+      ],
+      "name": "FAQs",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "reverse_on_mobile": false,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 46,
+        "enable_mobile_gap": false,
+        "mobile_gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-f7d134e6-ddd6-47fa-9428-1d7c551dd1f0",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 72,
+        "padding-block-end": 85,
+        "custom_mobile_padding": true,
+        "mobile-padding-block-start": 72,
+        "mobile-padding-block-end": 72,
+        "mobile-padding-inline-start": 0,
+        "mobile-padding-inline-end": 0,
+        "css_class": "",
+        "add_section_id": false,
+        "section_id": ""
+      }
+    },
     "product_recommendations_qggXJq": {
       "type": "product-recommendations",
       "blocks": {
@@ -1645,6 +2165,7 @@
     "section_Wn4UPT",
     "section_JfGPFH",
     "section_kpzXJe",
+    "section_kNAGEx",
     "product_recommendations_qggXJq"
   ]
 }
