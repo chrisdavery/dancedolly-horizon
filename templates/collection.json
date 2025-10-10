@@ -273,6 +273,8 @@
                 "type_preset": "h4",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
+                "enable_mobile_size": false,
+                "mobile_font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -732,9 +734,7 @@
         "group_MMhwaQ",
         "group_PbqHB9"
       ],
-      "custom_css": [
-        "{--page-width: 84rem;}"
-      ],
+      "custom_css": [],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "row",
