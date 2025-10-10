@@ -3411,9 +3411,7 @@
         "text_ankr67",
         "group_CCTAQE"
       ],
-      "custom_css": [
-        ".section--page-width {--page-width: 85rem !important;}"
-      ],
+      "custom_css": [],
       "name": "FAQs",
       "settings": {
         "content_direction": "column",
