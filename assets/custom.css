@@ -132,6 +132,10 @@ summary .svg-wrapper {
     margin-block-end: 0 !important;
 }
 
+.mega-menu__link {
+    line-height: 1.2em !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
