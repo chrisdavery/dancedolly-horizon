@@ -3571,7 +3571,7 @@
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "rte",
+                    "type_preset": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "enable_mobile_size": true,
