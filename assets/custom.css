@@ -148,6 +148,11 @@ summary .svg-wrapper {
     color: var(--color-foreground-heading);
 }
 
+.cart-secondary-typography {
+    --cart-secondary-font-family: var(--font-heading--family) !important;
+    font-weight: var(--font-heading--weight) !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
@@ -157,6 +162,9 @@ summary .svg-wrapper {
 @media screen and (min-width: 750px) {
     .facets--horizontal .facets__summary, .facets--horizontal .products-count-wrapper, .sorting-filter__label {
         font-size: var(--font-size--sm) !important;
+    }
+    .cart__container--extend .cart__summary-inner {
+        --sidebar-width: 30rem !important;
     }
 }
 
