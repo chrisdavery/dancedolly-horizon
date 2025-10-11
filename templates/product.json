@@ -245,6 +245,15 @@
                   "settings": {},
                   "blocks": {}
                 },
+                "hidden-property": {
+                  "type": "hidden-property",
+                  "static": true,
+                  "settings": {
+                    "property_key": "Preorder",
+                    "property_value": "Ships Q1 2026"
+                  },
+                  "blocks": {}
+                },
                 "add-to-cart": {
                   "type": "add-to-cart",
                   "static": true,

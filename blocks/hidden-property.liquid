@@ -1,0 +1,43 @@
+{% liquid
+  assign block_settings = block.settings
+  assign product_id = closest.product.id
+  assign element_id = 'CustomProperty-product_id-block_id' | replace: 'product_id', product_id | replace: 'block_id', block.id
+  assign product_form_id = 'BuyButtons-ProductForm-section.id' | replace: 'section.id', section.id
+%}
+
+{% if block_settings.property_key != blank and block_settings.property_value != blank %}
+    <input type="hidden" 
+        id="{{ element_id }}"
+        form="{{ product_form_id }}"
+        name="properties[{{ block_settings.property_key }}]"
+        value="{{ block_settings.property_value }}"
+    >
+{% endif %}
+
+{% schema %}
+{
+  "name": "Hidden property",
+  "tag": "product-custom-property-component",
+  "settings": [
+    {
+      "type": "text",
+      "id": "property_key",
+      "label": "t:settings.product_custom_property.key",
+      "default": "t:settings.product_custom_property.default_property_key",
+      "info": "t:settings.product_custom_property.key_info"
+    },
+    {
+      "type": "text",
+      "id": "property_value",
+      "label": "Property value",
+      "info": "t:settings.product_custom_property.key_info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hidden property",
+      "category": "t:categories.product"
+    }
+  ]
+}
+{% endschema %}

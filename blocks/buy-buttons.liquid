@@ -73,6 +73,11 @@
           {% content_for 'block', type: 'quantity', id: 'quantity' %}
 
           {% content_for 'block',
+            type: 'hidden-property',
+            id: 'hidden-property'
+          %}
+
+          {% content_for 'block',
             type: 'add-to-cart',
             id: 'add-to-cart',
             can_add_to_cart: can_add_to_cart,
