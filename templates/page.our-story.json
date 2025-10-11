@@ -883,7 +883,7 @@
         "columns": 2,
         "peek_desktop": false,
         "mobile_columns": "1",
-        "mobile_card_size": "100%",
+        "mobile_card_size": "80%",
         "columns_gap": 32,
         "rows_gap": 32,
         "icons_style": "arrow",
