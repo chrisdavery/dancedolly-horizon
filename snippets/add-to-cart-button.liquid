@@ -15,6 +15,10 @@
   if product.selected_or_first_available_variant.featured_media.preview_image == blank
     assign product_variant_media = product.featured_media.preview_image | image_url: width: 100
   endif
+
+  if product.type == 'Preorder'
+    assign add_to_cart_text = 'actions.preorder' | t
+  endif
 -%}
 
 <add-to-cart-component
@@ -26,7 +30,6 @@
     id="{{ id }}"
     type="submit"
     name="add"
-    data-native-pre-order-btn data-starting-variant={{ product.selected_or_first_available_variant.id }}
     ref="addToCartButton"
     on:click="/handleClick"
     class="button {{ class }}"
