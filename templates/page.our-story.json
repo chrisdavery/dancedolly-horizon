@@ -117,11 +117,11 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>We're Renee and Tom - entrepreneurs and dance parents for 15+ years who've spent more weekends than we can count hauling gear, steaming costumes in cramped hotel rooms, and hustling from parking lot to dressing room to stage for our three kids.</p>",
+            "text": "<p>We’re Renee and Tom—entrepreneurs and dance parents for 15+ years who’ve spent more weekends than we can count hauling gear, steaming costumes in cramped hotel rooms, and hustling from parking lot to dressing room to backstage for our three kids. Rosemary is now 19, a sophomore at UTK and a member of the Boss dance team (Go Vols!). Our younger daughter, Amelia (16), and son, Larry (9), both dance on the <a href=\"https://dcdancefactory.com/\"><span style=\"text-decoration:underline\">DC Dance Factory</span></a> team in Franklin, TN. We love this world, but let’s be real—traveling with dance kids can be stressful.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
-            "type_preset": "custom",
+            "type_preset": "rte",
             "font": "var(--font-accent--family)",
             "font_size": "1.375rem",
             "enable_mobile_size": false,
@@ -145,10 +145,34 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "image_BVgLkQ": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/png_-_2025-10-11T152433.257.png",
+            "link": "",
+            "image_ratio": "landscape",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 16,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "text_wH8ETg"
+        "text_wH8ETg",
+        "image_BVgLkQ"
       ],
       "custom_css": [
         "{--page-width: 65rem !important;}"
@@ -251,7 +275,7 @@
             "text_7fJmJH": {
               "type": "text",
               "settings": {
-                "text": "<p>Rosemary is now 19, a sophomore at UTK, and a member of the Boss dance team (Go Vols!). Our middle child, Amelia (16), and youngest, Larry (9), both dance on the DC Dance Factory Team based out of Franklin, TN. We love this world, but let's be real - traveling with dance kids can be stressful.</p><p>After one especially chaotic weekend in February 2024, Renee looked at Tom and said, <strong>\"There has to be a better way. Help me solve this problem.\"</strong> We literally cooked up the idea for the Dance Dolly in the kitchen that evening, and the rest is history.</p>",
+                "text": "<p>Like most families, we’ve invested in countless dance duffle bags with pop-up racks…only to hit the same wall every competition weekend. The wheels are on the short end—not the side you lay down to prep. So the moment you set the bag flat and extend the rack to hang costumes and organize accessories, you’re stuck. That means repacking, juggling armfuls of costumes, or wrestling bulky wardrobe racks that are hard to assemble and harder to steer. It’s a logistical mess at the exact moment when dancers—and parents—need calm.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -344,7 +368,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 72,
+        "padding-block-end": 48,
         "custom_mobile_padding": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0,
@@ -435,7 +459,7 @@
             "text_Cgf4U9": {
               "type": "text",
               "settings": {
-                "text": "<p>After nearly two years of sketches, 3D designs, and three prototypes, The Dance Dolly has arrived — designed by dance parents for dance parents to turn chaos into calm. It transports any size dance bag, converts to a sturdy costume rack in seconds, and keeps essentials organized.<br/><br/>Telescoping handles, a quick-fit costume rod, and an optional insulated costume box work together to eliminate extra gear, cut trips, and calm the chaos.</p>",
+                "text": "<p>After one especially chaotic weekend in February 2024, Renee looked at Tom and said, “There has to be a better way. Help me solve this.” That night in our kitchen, The Dance Dolly was born. After nearly two years of dreaming, concepting, 3D designs, and three prototypes, it’s here—designed by dance parents for dance parents. It transports any size dance bag with the rack up, converts to a rolling costume rack in seconds, and keeps all your essentials organized. Telescoping handles, a quick-fit costume rod, and an optional insulated costume box work together to cut trips and calm the chaos.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -909,7 +933,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Our why is simple: <strong>help families reclaim the fun, support their dancers, and make memories that last.</strong> And we're just getting started! We're already dreaming up more thoughtful accessories, refining details, and finding new ways to give back to the dance community we love.</p>",
+            "text": "<p>Our why is simple: help families reclaim the fun, support their dancers, and make memories that last. And we’re just getting started! We’re already dreaming up more thoughtful accessories, new products, and finding more ways to give back to the dance community we love.</p><p>Thanks for going on this journey with us. Here’s to making competition days smoother, and the moments together even sweeter.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
