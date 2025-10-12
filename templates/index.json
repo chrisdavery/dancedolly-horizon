@@ -254,7 +254,7 @@
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "enable_mobile_size": true,
-                    "mobile_font_size": "2.375rem",
+                    "mobile_font_size": "2.5rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
