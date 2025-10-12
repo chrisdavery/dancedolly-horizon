@@ -975,7 +975,7 @@
         "group_azTbUT"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {.vector-section {opacity: 0.1; }}"
+        "@media (max-width: 749px) {.vector-section {display: none; } .built-right {display: none;}}"
       ],
       "name": "t:names.rich_text_section",
       "settings": {
