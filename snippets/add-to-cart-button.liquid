@@ -33,6 +33,7 @@
     ref="addToCartButton"
     on:click="/handleClick"
     class="button {{ class }}"
+    data-native-pre-order-btn data-starting-variant={{ product.selected_or_first_available_variant.id }}
     {% unless can_add_to_cart %}
       disabled
     {% endunless %}
