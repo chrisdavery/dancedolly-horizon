@@ -108,7 +108,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>THE DANCE DOLLY<br/></strong>Patent Pending</p>",
+                "text": "<p><strong>THE DANCE DOLLY™<br/></strong>Patent Pending</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
