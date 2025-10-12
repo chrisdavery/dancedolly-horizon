@@ -18,7 +18,7 @@
           "type": "_announcement",
           "settings": {
             "text": "PRE-ORDER SPECIAL: Get a FREE Dance Box ($100 value) with your Dance Dolly purchase and support DAC!",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/the-dance-dolly",
             "font": "var(--font-accent--family)",
             "font_size": "1rem",
             "weight": "",
