@@ -164,6 +164,10 @@ product-custom-property-component:has([type="hidden"]) {
     display: none !important;
 }
 
+.cart-items__nested-line a {
+    pointer-events: none !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
