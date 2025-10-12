@@ -175,7 +175,7 @@
         "image_BVgLkQ"
       ],
       "custom_css": [
-        "{--page-width: 65rem !important;}"
+        "{--page-width: 72rem !important;}"
       ],
       "name": "t:names.rich_text_section",
       "settings": {
@@ -337,7 +337,7 @@
         "image_DM7tLz"
       ],
       "custom_css": [
-        "{--page-width: 65rem !important;}"
+        "{--page-width: 72rem !important;}"
       ],
       "name": "t:names.image_with_text",
       "settings": {
@@ -499,7 +499,7 @@
         "group_bb6ip6"
       ],
       "custom_css": [
-        "{--page-width: 65rem !important;}"
+        "{--page-width: 72rem !important;}"
       ],
       "name": "t:names.image_with_text",
       "settings": {
@@ -895,7 +895,7 @@
         "carousel_card_eeWhbh"
       ],
       "custom_css": [
-        "{--page-width: 65rem !important;}"
+        "{--page-width: 72rem !important;}"
       ],
       "name": "Carousel",
       "settings": {
@@ -1232,7 +1232,7 @@
         "group_xX3GXJ"
       ],
       "custom_css": [
-        "{--page-width: 65rem !important;}"
+        "{--page-width: 72rem !important;}"
       ],
       "name": "t:names.rich_text_section",
       "settings": {
