@@ -2342,7 +2342,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Roomy, water-resistant nylon case with built-in wheels, telescoping handle, and padded shoulder strap.</p>",
+                "text": "<p>Water-resistant nylon case with storage pocket, wheels, handle, and padded shoulder strap.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2479,7 +2479,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Attaches securely to the base with velcro straps and includes a protective cover, insulated lining, and built-in pockets to keep costumes, accessories, snacks and more organized and at your fingertips.</p>",
+                "text": "<p>Attaches securely to the base with velcro straps and keeps everything organized and at your fingertips.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
