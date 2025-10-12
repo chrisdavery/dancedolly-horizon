@@ -175,6 +175,68 @@ class ProductFormComponent extends Component {
     if (!form) throw new Error('Product form element missing');
 
     const formData = new FormData(form);
+    // Handle product addons - this is where we'll fix the items format
+    const addons = Array.from(form.elements).filter(el =>
+      el.matches('.product-addon')
+    );
+    /**
+     * @type {string | any[]}
+     */
+
+    const addon_items = []
+
+    if (addons.length > 0) {
+      /** @type {Record<string, FormDataEntryValue>} */
+        const properties = {};
+        for (const [key, value] of formData.entries()) {
+          const propMatch = key.match(/^properties\[(.+)]$/);
+          if (propMatch && propMatch[1]) {
+            const propKey = propMatch[1]; // e.g. 'Size', 'Bust'
+            properties[propKey] = value;
+          }
+        }
+
+        // Create items array using formData.get() as requested
+        // Create items array using formData.get() as requested
+        const item = {
+          id: Number(formData.get('id')),
+          quantity: Number(formData.get('quantity')) || 1,
+          properties: { ...properties }
+        };
+
+        // If selling_plan exists, add it as a top-level parameter (not inside properties)
+        const sellingPlanInput = form.querySelector('[name="selling_plan"]');
+        if (sellingPlanInput && sellingPlanInput.value) {
+          item.selling_plan = Number(sellingPlanInput.value);
+        }
+
+        // Push to addon_items
+        addon_items.push(item);
+
+        // Add addons to items array
+        Array.from(addons).forEach(addon => {
+          if (!addon.value) return;
+
+          const id = Number(addon.value);
+          const item = {
+            id,
+            quantity: 1,
+            parent_id: Number(formData.get('id'))
+          };
+
+          // if (addon.dataset.sellingPlan !== undefined) {
+          //   item.selling_plan = Number(addon.dataset.sellingPlan);
+          // }
+
+          addon_items.push(item);
+        });
+
+        formData.delete('id');
+        formData.delete('quantity');
+
+        // Create new FormData and build it properly
+        this.buildFormData(formData, 'items', addon_items);
+    }
 
     const cartItemsComponents = document.querySelectorAll('cart-items-component');
     let cartItemComponentsSectionIds = [];
@@ -237,7 +299,16 @@ class ProductFormComponent extends Component {
 
           return;
         } else {
-          const id = formData.get('id');
+          var id = 0;
+
+          if (addon_items.length > 0) {
+            id = addon_items[0].id.toString()
+          } else {
+            const idFromFormData = formData.get('id');  // string | null
+
+            // Convert to string, fallback to "0" if null, then to number
+            id = idFromFormData !== null ? Number(idFromFormData) : 0;
+          }
 
           if (addToCartTextError) {
             addToCartTextError.classList.add('hidden');
@@ -276,6 +347,22 @@ class ProductFormComponent extends Component {
         // add more thing to do in here if needed.
         cartPerformance.measureFromEvent('add:user-action', event);
       });
+  }
+
+  // Helper function to properly format FormData for arrays
+  /**
+   * @param {{ append: (arg0: any, arg1: any) => any; }} formData
+   * @param {string} key
+   * @param {{ [x: string]: any; }} data
+   */
+  buildFormData(formData, key, data) {
+      if (data === Object(data) || Array.isArray(data)) {
+          for (const i in data) {
+              this.buildFormData(formData, `${key}[${i}]`, data[i]);
+          }
+      } else {
+          data && formData.append(key, data);
+      }
   }
 
   /**

@@ -89,6 +89,29 @@
           >
         {% endif %}
 
+        {% if product.metafields.custom.product_addon.value != blank and product.metafields.custom.product_addon.value.available == true %}
+          {% liquid
+            for item in product.selling_plan_groups[0].selling_plans
+              assign selling_plan_name = item.name | handleize
+
+              if selling_plan_name contains 'pre-order'
+                assign has_preorder = true
+                assign addon_plan_id = item.id
+              endif
+            endfor
+          %}
+          <input
+            type="hidden"
+            class="product-addon"
+            name="product_addon"
+            ref="product_addon"
+            {% if addon_plan_id != blank %}
+              data-selling-plan="{{ addon_plan_id }}"
+            {% endif %}
+            value="{{ product.metafields.custom.product_addon.value.selected_or_first_available_variant.id }}"
+          >
+        {% endif %}
+
         {%- if block_settings.gift_card_form and product.gift_card? -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section, block: block -%}
         {%- endif -%}
