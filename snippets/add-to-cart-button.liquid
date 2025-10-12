@@ -16,7 +16,17 @@
     assign product_variant_media = product.featured_media.preview_image | image_url: width: 100
   endif
 
-  if product.type == 'Preorder'
+  assign has_preorder = false
+
+  for item in product.selling_plan_groups[0].selling_plans
+    assign selling_plan_name = item.name | handleize
+
+    if selling_plan_name contains 'pre-order'
+      assign has_preorder = true
+    endif
+  endfor
+
+  if product.type == 'Preorder' or has_preorder == true
     assign add_to_cart_text = 'actions.preorder' | t
   endif
 -%}
@@ -33,7 +43,6 @@
     ref="addToCartButton"
     on:click="/handleClick"
     class="button {{ class }}"
-    data-native-pre-order-btn data-starting-variant={{ product.selected_or_first_available_variant.id }}
     {% unless can_add_to_cart %}
       disabled
     {% endunless %}

@@ -148,9 +148,16 @@ summary .svg-wrapper {
     color: var(--color-foreground-heading);
 }
 
-.cart-secondary-typography {
-    --cart-secondary-font-family: var(--font-heading--family) !important;
-    font-weight: var(--font-heading--weight) !important;
+[data-native-pre-order-btn] {
+    display: none !important;
+}
+
+[data-native-pre-order-btn-added] {
+    display: grid !important;
+}
+
+product-custom-property-component:has([type="hidden"]) {
+    display: none;
 }
 
 @media (max-width: 1600px) and (min-width: 750px) {

@@ -249,8 +249,8 @@
                   "type": "hidden-property",
                   "static": true,
                   "settings": {
-                    "property_key": "Preorder",
-                    "property_value": "Ships Q1 2026"
+                    "property_key": "{{ closest.product.metafields.custom.custom_line_item_property_name.value }}",
+                    "property_value": "{{ closest.product.metafields.custom.custom_line_item_property_value.value }}"
                   },
                   "blocks": {}
                 },

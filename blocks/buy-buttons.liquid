@@ -17,6 +17,18 @@
     assign quantity_rule_soldout = true
   endif
 
+  assign has_preorder = false
+  assign selling_plan_id = blank
+
+  for item in product.selling_plan_groups[0].selling_plans
+    assign selling_plan_name = item.name | handleize
+
+    if selling_plan_name contains 'pre-order'
+      assign has_preorder = true
+      assign selling_plan_id = item.id
+    endif
+  endfor
+
   if inventory_managed
     if inventory_quantity <= 0 and inventory_policy == 'deny' or quantity_rule_soldout
       assign can_add_to_cart = false
@@ -33,6 +45,10 @@
       assign can_add_to_cart = false
       assign add_to_cart_text = 'products.product.unavailable' | t
     endif
+  endif
+
+  if product.type == 'Preorder' or has_preorder == true
+    assign add_to_cart_text = 'actions.preorder' | t
   endif
 %}
 
@@ -63,6 +79,16 @@
           ref="variantId"
           value="{{ product.selected_or_first_available_variant.id }}"
         >
+
+        {% if selling_plan_id != blank %}
+          <input
+            type="hidden"
+            name="selling_plan"
+            ref="selling_plan"
+            value="{{ selling_plan_id }}"
+          >
+        {% endif %}
+
         {%- if block_settings.gift_card_form and product.gift_card? -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section, block: block -%}
         {%- endif -%}
