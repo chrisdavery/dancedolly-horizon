@@ -121,11 +121,11 @@
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "custom",
             "font": "var(--font-accent--family)",
             "font_size": "1.375rem",
-            "enable_mobile_size": false,
-            "mobile_font_size": "1rem",
+            "enable_mobile_size": true,
+            "mobile_font_size": "1.125rem",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
@@ -149,6 +149,7 @@
         "image_BVgLkQ": {
           "type": "image",
           "name": "t:names.image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/png_-_2025-10-11T152433.257.png",
             "link": "",
