@@ -1520,7 +1520,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Folds flat for easy transport and storage.</p>",
+                "text": "<p>Folds flat for easy transport and storage and sturdy lightweight construction.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1624,7 +1624,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>No tools required</h3>",
+                "text": "<h3>Fits any dance bag</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1657,7 +1657,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Sets up in minutes—parts click and lock into place.</p>",
+                "text": "<p>Extra-wide loading board plus two bungee cords secure any dance bag with the rack up.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1761,7 +1761,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>Fits any dance bag</h3>",
+                "text": "<h3>Three-handle versatility</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1794,7 +1794,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Extra-wide loading board carries every major bag with the rack up — no wobble.</p>",
+                "text": "<p>One adjustable T-handle to tow any bag, plus two vertical handles that extend to ~60\" and convert the dolly into a rolling costume rack. All three tuck away when not in use.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1898,7 +1898,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>Adjustable T-handle</h3>",
+                "text": "<h3>No tools required</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1931,7 +1931,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Telescopes and tilts to 90° for comfortable, controlled pulling.</p>",
+                "text": "<p>Sets up in minutes—parts click and lock into place.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2068,7 +2068,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Crossbar clicks in fast so outfits are organized and ready.</p>",
+                "text": "<p>Use with or without a bag: both handles lock to ~60\" and the crossbar clicks in fast; 12\" end extensions add hanging space.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2205,7 +2205,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Quiet, high-quality wheels with foot brakes for confident stops</p>",
+                "text": "<p>Six shock-absorbing wheels glide through crowds; two foot brakes for confident stops and four swivels for tight turns.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2309,7 +2309,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>Carry case included</h3>",
+                "text": "<h3>Stow-away wheels</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2342,7 +2342,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Water-resistant nylon case with storage pocket, wheels, handle, and padded shoulder strap.</p>",
+                "text": "<p>All wheels detach and store neatly in the base when not in use.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2446,7 +2446,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>Optional Costume Keeper™ foldable box</h3>",
+                "text": "<h3>Carry case included</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2479,7 +2479,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Attaches securely to the base with velcro straps and keeps everything organized and at your fingertips.</p>",
+                "text": "<p>Water-resistant nylon case with storage pocket, wheels, handle, and padded shoulder strap.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2513,6 +2513,143 @@
             "image_eJm3Tc",
             "text_MHdbma",
             "text_mHgn4y"
+          ]
+        },
+        "carousel_card_hXiadB": {
+          "type": "_carousel-card",
+          "name": "Carousel Item",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "reverse_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "custom_mobile_alignment": false,
+            "mobile_vertical_alignment": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 16,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_mobile_radius": false,
+            "mobile_border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0,
+            "css_class": ""
+          },
+          "blocks": {
+            "image_6VYjXr": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/man_jumping-fotor-20250329145128_587b9085-59df-44c4-a9ac-a981176c2511.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 16,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_t9FHrQ": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h3>Costume Keeper™ foldable box</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "enable_mobile_size": true,
+                "mobile_font_size": "1.125rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_KpAjXF": {
+              "type": "text",
+              "name": "Description",
+              "settings": {
+                "text": "<p>Roomy wagon-like box attaches to the base with velcro straps and keeps everything organized and within reach.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1.125rem",
+                "enable_mobile_size": false,
+                "mobile_font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_6VYjXr",
+            "text_t9FHrQ",
+            "text_KpAjXF"
           ]
         },
         "static-header": {
@@ -2591,7 +2728,8 @@
         "carousel_card_HRppTt",
         "carousel_card_LYdPRd",
         "carousel_card_dQ6QjN",
-        "carousel_card_qbMfM4"
+        "carousel_card_qbMfM4",
+        "carousel_card_hXiadB"
       ],
       "custom_css": [
         ".section--page-width {--page-width: 72rem !important;}"
