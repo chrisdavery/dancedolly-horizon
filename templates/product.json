@@ -487,7 +487,7 @@
                     "text_BVtrpJ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<ul><li>Try it at home. If it’s not right, you can return it within 15 days of delivery.</li><li>Items must be unused, in original packaging, and include all parts, and be free of any wear or dirt.</li><li>We don’t accept returns on customized items (embroidery, heat press, vinyl, paint, etc.).</li><li>For damaged or incorrect items, we’ll make it right and cover return shipping.</li><li>For all other returns, you pay return shipping. <strong>Note:</strong> Original shipping isn’t refundable.</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
