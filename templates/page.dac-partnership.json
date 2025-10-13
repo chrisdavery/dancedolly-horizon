@@ -1674,7 +1674,7 @@
         "group_98mQNQ"
       ],
       "custom_css": [
-        "{--page-width: 72rem !important; --border-color: #ED0973 !important;}"
+        "{--page-width: 72rem !important; --color-border-rgb: #ED0973;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
