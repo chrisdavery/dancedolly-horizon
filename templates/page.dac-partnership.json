@@ -136,6 +136,9 @@
         "text_NinCR9",
         "text_zeNNbw"
       ],
+      "custom_css": [
+        ".overlay {background-image: linear-gradient(to right, #00ABC5cc, #ED0973cc);}"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
