@@ -1592,7 +1592,7 @@
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0,
-            "css_class": ""
+            "css_class": "pink-border"
           },
           "blocks": {
             "text_kw77aF": {
@@ -1674,7 +1674,8 @@
         "group_98mQNQ"
       ],
       "custom_css": [
-        "{--page-width: 72rem !important; --color-border-rgb: #ED0973;}"
+        "{--page-width: 72rem !important;}",
+        ".pink-border {border-color: #ed0973;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
