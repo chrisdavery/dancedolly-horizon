@@ -77,8 +77,8 @@
             "type_preset": "h1",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
-            "enable_mobile_size": false,
-            "mobile_font_size": "1rem",
+            "enable_mobile_size": true,
+            "mobile_font_size": "2.25rem",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
@@ -137,7 +137,7 @@
         "text_zeNNbw"
       ],
       "custom_css": [
-        ".overlay {background-image: linear-gradient(to right, #00ABC5cc, #ED0973cc);}"
+        ".overlay {background-image: linear-gradient(to right, #00abc5cc, #ed0973cc);}"
       ],
       "name": "t:names.hero",
       "settings": {
