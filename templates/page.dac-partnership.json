@@ -924,6 +924,9 @@
         "group_Q8UjfU",
         "group_EeJCyC"
       ],
+      "custom_css": [
+        "{--page-width: 72rem !important;}"
+      ],
       "name": "How Your Purchase Helps",
       "settings": {
         "content_direction": "row",
