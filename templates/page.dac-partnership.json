@@ -1562,7 +1562,7 @@
             "enable_mobile_gap": false,
             "mobile_gap": 12,
             "width": "custom",
-            "custom_width": 59,
+            "custom_width": 70,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -1601,7 +1601,7 @@
               "settings": {
                 "text": "<p>Founded in 2012 and recognized as a 501(c)(3) nonprofit, DAC has united the dance world to raise funds and deliver assistance to those in need across studios, teams, and families nationwide.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -1634,7 +1634,7 @@
               "settings": {
                 "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
