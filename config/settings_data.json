@@ -93,6 +93,11 @@
         "type": "shopify://apps/preproduct-next-gen-pre-order/blocks/preproduct_app_embed_block/2762c018-a41c-4de1-8397-e1a2010a74fa",
         "disabled": false,
         "settings": {}
+      },
+      "4015264832934714879": {
+        "type": "shopify://apps/trustoo-email-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
