@@ -886,8 +886,8 @@
               "type": "text",
               "settings": {
                 "text": "<p>Your support helps DAC provide real, practical assistance to members of the dance community navigating a cancer diagnosis. Every Dance Dolly purchased directly contributes to helping families when they need it most.</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
+                "width": "100%",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
