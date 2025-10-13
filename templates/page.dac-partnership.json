@@ -1494,7 +1494,7 @@
             "link": "",
             "image_ratio": "adapt",
             "width": "custom",
-            "custom_width": 8,
+            "custom_width": 6,
             "width_mobile": "custom",
             "custom_width_mobile": 8,
             "height": "fit",
