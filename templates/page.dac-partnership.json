@@ -228,7 +228,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>BUILT FOR THE WAY DANCE FAMILIES MOVE</h2>",
+                "text": "<h2>Our Mission</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -261,7 +261,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>The Dance Dolly™ streamlines every trip: it transports any size dance bag, converts to a sturdy costume rack in seconds, and keeps essentials organized. Telescoping handles, a quick-fit costume rod, and an optional insulated costume box work together to eliminate extra gear, cut trips and calm the chaos. Folds flat for easy car, elevator, and hotel-room living.</p>",
+                "text": "<p>DAC's mission is to create an alliance in the dance community that provides financial support and inspiration to dance educators, choreographers, dancers, and their families impacted by cancer.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
@@ -289,32 +289,17 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_R4iCxi": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "LEARN MORE",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 15,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "text_Nj4Xg3",
-            "text_KyqkhE",
-            "button_R4iCxi"
+            "text_KyqkhE"
           ]
         },
         "group_NzaRkJ": {
           "type": "group",
           "name": "Vector",
+          "disabled": true,
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -396,6 +381,7 @@
         "group_3P6Ucb": {
           "type": "group",
           "name": "Vector",
+          "disabled": true,
           "settings": {
             "link": "",
             "open_in_new_tab": false,
