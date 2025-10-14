@@ -184,7 +184,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h4>PRE-ORDER. GIVE BACK. GET ORGANIZED.</h4><p>Pre-order now and get a FREE Costume Box ($100 value) with your Dance Dolly purchase AND we’ll donate $10 to Dancers Against Cancer.</p>",
+                "text": "{{ closest.product.metafields.custom.short_description | metafield_tag }}",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
