@@ -1543,7 +1543,7 @@
         "gap": 48,
         "color_scheme": "scheme-f7d134e6-ddd6-47fa-9428-1d7c551dd1f0",
         "padding-block-start": 72,
-        "padding-block-end": 72,
+        "padding-block-end": 32,
         "custom_mobile_padding": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
@@ -2036,6 +2036,7 @@
         "carousel_card_Gnn9rz",
         "carousel_card_BiJPeD"
       ],
+      "disabled": true,
       "name": "Carousel",
       "settings": {
         "alignment": "left",
