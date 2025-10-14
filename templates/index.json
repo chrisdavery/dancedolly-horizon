@@ -3354,7 +3354,7 @@
                   "type": "button",
                   "settings": {
                     "label": "LEARN MORE",
-                    "link": "shopify://pages/dac-partnership",
+                    "link": "shopify://pages/dac",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "custom",
