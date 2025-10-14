@@ -990,7 +990,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 72,
-        "padding-block-end": 72,
+        "padding-block-end": 32,
         "custom_mobile_padding": true,
         "mobile-padding-block-start": 72,
         "mobile-padding-block-end": 0,
