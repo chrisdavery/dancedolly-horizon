@@ -3421,7 +3421,7 @@
                       "type": "button",
                       "settings": {
                         "label": "DONATE",
-                        "link": "shopify://pages/dac-partnership",
+                        "link": "https://donate.imadanceragainstcancer.org/donate",
                         "open_in_new_tab": false,
                         "style_class": "button",
                         "width": "custom",
