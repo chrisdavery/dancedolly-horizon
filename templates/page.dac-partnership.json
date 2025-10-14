@@ -2568,7 +2568,7 @@
                       "type": "button",
                       "settings": {
                         "label": "DONATE",
-                        "link": "https://www.dancersagainstcancer.org/",
+                        "link": "https://donate.imadanceragainstcancer.org/donate",
                         "open_in_new_tab": false,
                         "style_class": "button",
                         "width": "custom",
