@@ -168,6 +168,10 @@ product-custom-property-component:has([type="hidden"]) {
     pointer-events: none !important;
 }
 
+.product-information__grid--limit-details .product-details>.group-block {
+    max-width: 30rem !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
