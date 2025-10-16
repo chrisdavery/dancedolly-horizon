@@ -89,13 +89,18 @@
     "button_font_weight_secondary": "default",
     "content_for_index": [],
     "blocks": {
-      "8552734807663135353": {
-        "type": "shopify://apps/preproduct-next-gen-pre-order/blocks/preproduct_app_embed_block/2762c018-a41c-4de1-8397-e1a2010a74fa",
+      "4015264832934714879": {
+        "type": "shopify://apps/trustoo-email-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
         "settings": {}
       },
-      "4015264832934714879": {
-        "type": "shopify://apps/trustoo-email-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
+      "8552734807663135353": {
+        "type": "shopify://apps/preproduct-next-gen-pre-order/blocks/preproduct_app_embed_block/2762c018-a41c-4de1-8397-e1a2010a74fa",
+        "disabled": true,
+        "settings": {}
+      },
+      "15393088698543645836": {
+        "type": "shopify://apps/essential-preorder/blocks/app-embed/bb7e7a06-2a82-4e7d-8984-c3918deb1c2a",
         "disabled": false,
         "settings": {}
       }

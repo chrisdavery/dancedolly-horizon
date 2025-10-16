@@ -21,7 +21,7 @@
   for item in product.selling_plan_groups[0].selling_plans
     assign selling_plan_name = item.name | handleize
 
-    if selling_plan_name contains 'pre-order'
+    if selling_plan_name contains 'pre-order' or product.selling_plan_groups[0].name contains 'Preorder'
       assign has_preorder = true
     endif
   endfor

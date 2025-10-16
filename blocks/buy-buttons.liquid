@@ -23,7 +23,7 @@
   for item in product.selling_plan_groups[0].selling_plans
     assign selling_plan_name = item.name | handleize
 
-    if selling_plan_name contains 'pre-order'
+    if selling_plan_name contains 'pre-order' or product.selling_plan_groups[0].name contains 'Preorder'
       assign has_preorder = true
       assign selling_plan_id = item.id
     endif
@@ -89,12 +89,15 @@
           >
         {% endif %}
 
+        <noscript class="sdsd">
+          {{ product | json }}
+        </noscript>
         {% if product.metafields.custom.product_addon.value != blank and product.metafields.custom.product_addon.value.available == true %}
           {% liquid
             for item in product.selling_plan_groups[0].selling_plans
               assign selling_plan_name = item.name | handleize
 
-              if selling_plan_name contains 'pre-order'
+              if selling_plan_name contains 'pre-order' or product.selling_plan_groups[0].name contains 'Preorder'
                 assign has_preorder = true
                 assign addon_plan_id = item.id
               endif

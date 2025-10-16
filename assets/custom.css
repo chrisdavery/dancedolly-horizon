@@ -148,13 +148,13 @@ summary .svg-wrapper {
     color: var(--color-foreground-heading);
 }
 
-[data-native-pre-order-btn] {
+/* [data-native-pre-order-btn] {
     display: none !important;
 }
 
 [data-native-pre-order-btn-added] {
     display: grid !important;
-}
+} */
 
 product-custom-property-component:has([type="hidden"]) {
     display: none;
