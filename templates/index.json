@@ -3671,7 +3671,7 @@
                         "text_P3Lgjk": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>We’re targeting deliveries by the end of Q1 2026.</p>",
+                            "text": "<p>We’re targeting deliveries by the end of Q1 2026 - just in time for comp season!</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -3717,7 +3717,7 @@
                         "text_jMjV9J": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Under 20 lbs.</p>",
+                            "text": "<p>Just under 20 lbs.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
