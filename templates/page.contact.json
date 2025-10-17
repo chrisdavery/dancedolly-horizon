@@ -502,7 +502,7 @@
                   "type": "icon",
                   "name": "t:names.icon",
                   "settings": {
-                    "icon": "chat_bubble",
+                    "icon": "map_pin",
                     "width": 24,
                     "link": "",
                     "open_in_new_tab": false
@@ -518,7 +518,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<p>Email Us</p>",
+                "text": "<p>Call Us</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -551,7 +551,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>hello@dancedolly.com</p>",
+                "text": "<p>+1 (555) 123-4567</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -584,7 +584,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>We'll respond within 24 hours</p>",
+                "text": "<p>Mon-Fri, 9am-5pm EST</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
