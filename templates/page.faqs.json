@@ -1058,7 +1058,7 @@
                     "text_YmBwTw": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes—bulk and studio pricing available. Contact us for details.</p>",
+                        "text": "<p>Yes, volume and studio pricing available. Contact Tom at tom@dancedolly.com for more information.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -1104,7 +1104,7 @@
                     "text_WkMPaq": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Email <a href=\"mailto:hello@thedancedolly.com\" title=\"mailto:hello@thedancedolly.com\">hello@thedancedolly.com</a> (placeholder) and we’ll get back within one business day.</p>",
+                        "text": "<p>Email <a href=\"mailto:support@dancedolly.com\" title=\"mailto:support@dancedolly.com\">support@dancedolly.com</a> and we’ll get back to you within one business day.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
