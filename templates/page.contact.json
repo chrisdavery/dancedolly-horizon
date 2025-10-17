@@ -338,6 +338,9 @@
       "block_order": [
         "group_LNpdK8"
       ],
+      "custom_css": [
+        ".shadow-box {}"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "row",
