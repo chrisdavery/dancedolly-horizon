@@ -3456,7 +3456,8 @@
         "group_zFYhLF"
       ],
       "custom_css": [
-        ".bg-transparent {background: transparent;}"
+        ".bg-transparent {background: transparent;}",
+        "@media (min-width: 750px) {slideshow-slides[size=medium] {min-height: 44rem; }}"
       ],
       "name": "Slider",
       "settings": {
