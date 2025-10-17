@@ -3397,7 +3397,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "custom_mobile_alignment": true,
-                "mobile_vertical_alignment": "flex-start",
+                "mobile_vertical_alignment": "center",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "enable_mobile_gap": true,
