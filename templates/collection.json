@@ -410,15 +410,15 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>DESIGNED BY DANCE PARENTS</h3>",
+                "text": "<p><strong>DESIGNED BY DANCE PARENTS</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h3",
+                "type_preset": "custom",
                 "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "enable_mobile_size": false,
-                "mobile_font_size": "1rem",
+                "font_size": "1.375rem",
+                "enable_mobile_size": true,
+                "mobile_font_size": "1.125rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -535,15 +535,15 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>BUILT FOR THE DANCE WORLD</h3>",
+                "text": "<p><strong>BUILT FOR THE DANCE WORLD</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h3",
+                "type_preset": "custom",
                 "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "enable_mobile_size": false,
-                "mobile_font_size": "1rem",
+                "font_size": "1.375rem",
+                "enable_mobile_size": true,
+                "mobile_font_size": "1.125rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -656,19 +656,19 @@
             "css_class": ""
           },
           "blocks": {
-            "text_fxBRe3": {
+            "text_9rVXXm": {
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>EVERY DOLLY GIVES BACK</h3>",
+                "text": "<p><strong>EVERY DOLLY GIVES BACK</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h3",
+                "type_preset": "custom",
                 "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "enable_mobile_size": false,
-                "mobile_font_size": "1rem",
+                "font_size": "1.375rem",
+                "enable_mobile_size": true,
+                "mobile_font_size": "1.125rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -724,7 +724,7 @@
             }
           },
           "block_order": [
-            "text_fxBRe3",
+            "text_9rVXXm",
             "text_cMDpiw"
           ]
         }
