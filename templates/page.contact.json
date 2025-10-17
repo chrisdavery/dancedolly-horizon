@@ -1067,7 +1067,7 @@
                       "type": "icon",
                       "name": "t:names.icon",
                       "settings": {
-                        "icon": "silhouette",
+                        "icon": "instagram",
                         "width": 24,
                         "link": "",
                         "open_in_new_tab": false
@@ -1083,7 +1083,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<p>Call Us</p>",
+                    "text": "<p>Follow Us</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1112,69 +1112,22 @@
                   },
                   "blocks": {}
                 },
-                "text_4dByVL": {
-                  "type": "text",
-                  "name": "Description",
+                "social_links_xEpb6F": {
+                  "type": "social-links",
                   "settings": {
-                    "text": "<p>+1 (555) 123-4567</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "enable_mobile_size": true,
-                    "mobile_font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "custom_mobile_padding": false,
-                    "mobile-padding-block-start": 0,
-                    "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_FqaEaR": {
-                  "type": "text",
-                  "name": "Description",
-                  "settings": {
-                    "text": "<p>Mon-Fri, 9am-5pm EST</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "0.75rem",
-                    "enable_mobile_size": false,
-                    "mobile_font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "custom_mobile_padding": false,
-                    "mobile-padding-block-start": 0,
-                    "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
+                    "facebook_url": "https://www.facebook.com/profile.php?id=61582117016278",
+                    "instagram_url": "https://www.instagram.com/thedancedolly/",
+                    "youtube_url": "https://www.youtube.com/@TheDanceDolly",
+                    "tiktok_url": "https://www.tiktok.com/@thedancedolly",
+                    "twitter_url": "https://www.twitter.com",
+                    "threads_url": "",
+                    "linkedin_url": "",
+                    "bluesky_url": "",
+                    "snapchat_url": "",
+                    "pinterest_url": "",
+                    "tumblr_url": "",
+                    "vimeo_url": "",
+                    "custom_url": ""
                   },
                   "blocks": {}
                 }
@@ -1182,8 +1135,7 @@
               "block_order": [
                 "group_L8aaqd",
                 "text_FitzxV",
-                "text_4dByVL",
-                "text_FqaEaR"
+                "social_links_xEpb6F"
               ]
             }
           },
