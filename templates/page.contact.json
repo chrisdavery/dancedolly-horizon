@@ -627,6 +627,7 @@
         "group_VxqCxR"
       ],
       "custom_css": [
+        "{--page-width: 50rem !important;}",
         ".shadow-box {box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);}",
         ".icon-group {background: linear-gradient(to right, #00abc5, #ed0973);}"
       ],
