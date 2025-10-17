@@ -656,7 +656,7 @@
                 "color_scheme": "",
                 "autoplay": true,
                 "autoplay_speed": 4,
-                "slide_height": "small",
+                "slide_height": "medium",
                 "padding-block-start": 0,
                 "padding-block-end": 0
               },
