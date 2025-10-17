@@ -368,7 +368,7 @@
                     "text_YfaaC6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
+                        "text": "<p>At checkout, you will be charged a deposit. The remaining balance on your purchase will be charged when your purchase ships.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -414,7 +414,7 @@
                     "text_qJUGbh": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes—our wide loading board is designed to carry any major dance bag.</p>",
+                        "text": "<p>Yes—our wide loading board is designed to transport most any dance bag in the industry, up to 36” in length, with the rack up.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
