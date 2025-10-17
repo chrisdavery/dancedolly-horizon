@@ -690,7 +690,7 @@
                     "text_TAKTUU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Adjustable T-handle with multiple lock points for comfortable pulling (specs posted pre-ship).</p>",
+                        "text": "<p>The adjustable T-handle has two lock points for comfortable pulling - 32” and 35”.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -727,7 +727,7 @@
                 "accordion_row_VwNYUJ": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What is the Dance Box?",
+                    "heading": "What is the Costume Keeper box?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -736,7 +736,7 @@
                     "text_n36hhb": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>An optional, insulated, pocketed organizer that folds flat and straps securely to the base.</p>",
+                        "text": "<p>An optional, insulated, pocketed organizer that straps securely to the base for added storage and folds flat when not in use.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
