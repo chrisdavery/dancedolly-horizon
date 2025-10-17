@@ -2633,7 +2633,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>Buy a Dance Dolly</strong>—$10 goes straight to DAC.</p><p><strong>Share the mission </strong>with your studio and team.</p><p>Learn more about DAC's programs and impact or make an additional gift.</p>",
+                "text": "<p><a href=\"#sales-section\" title=\"#sales-section\"><strong>Buy a Dance Dolly</strong></a>—$10 goes straight to DAC.</p><p><strong>Share the mission </strong>with your studio and team.</p><p>Learn more about DAC's programs and impact or make an additional gift.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
