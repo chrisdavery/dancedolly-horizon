@@ -874,7 +874,7 @@
                     "text_6Nad36": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>The Dance Dolly, crossbar/rack hardware, quick-start guide. Dance Box sold separately.</p>",
+                        "text": "<p>The Dance Dolly, costume rod, six wheels, quick-start guide. Costume Keeper box sold separately.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -920,7 +920,7 @@
                     "text_arx9WT": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>U.S. at launch (TBD on Canada/international).</p>",
+                        "text": "<p>Initially, we will only be shipping in the Continental United States. International shipping may follow based on customer demand. Please contact us at <a href=\"mailto:support@dancedolly.com\" title=\"mailto:support@dancedolly.com\">support@dancedolly.com</a> with inquiries. </p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
