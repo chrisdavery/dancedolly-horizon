@@ -4040,10 +4040,10 @@
         "section_id": ""
       }
     },
-    "section_Bq8nHh": {
+    "section_HAk46z": {
       "type": "section",
       "blocks": {
-        "group_BJaeWe": {
+        "group_yA8RYQ": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -4096,7 +4096,7 @@
             "css_class": ""
           },
           "blocks": {
-            "group_6BY3b8": {
+            "group_CkhHnz": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -4149,7 +4149,7 @@
                 "css_class": ""
               },
               "blocks": {
-                "text_BaG48p": {
+                "text_qtXLVL": {
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
@@ -4184,13 +4184,13 @@
                 }
               },
               "block_order": [
-                "text_BaG48p"
+                "text_qtXLVL"
               ]
             },
-            "text_jczNcV": {
+            "text_Vb8zFh": {
               "type": "text",
               "settings": {
-                "text": "<p>Practical advice for dance parents + Dance Dolly updates and special offers.</p>",
+                "text": "<p>Dance Dolly updates, special offers, and the occasional piece of practical advice for dance parents.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -4221,11 +4221,11 @@
             }
           },
           "block_order": [
-            "group_6BY3b8",
-            "text_jczNcV"
+            "group_CkhHnz",
+            "text_Vb8zFh"
           ]
         },
-        "group_t3ft8r": {
+        "group_dCgyFg": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -4278,7 +4278,7 @@
             "css_class": ""
           },
           "blocks": {
-            "email_signup_gG9py9": {
+            "email_signup_MVGdh6": {
               "type": "email-signup",
               "settings": {
                 "width": "fill",
@@ -4303,7 +4303,7 @@
               },
               "blocks": {}
             },
-            "group_3Q8fKG": {
+            "group_pyWhhE": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -4356,7 +4356,7 @@
                 "css_class": ""
               },
               "blocks": {
-                "text_kxR74k": {
+                "text_Uymktc": {
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
@@ -4389,15 +4389,14 @@
                   },
                   "blocks": {}
                 },
-                "social_links_CwX9rQ": {
+                "social_links_P3qFw8": {
                   "type": "social-links",
-                  "name": "t:names.social_media_links",
                   "settings": {
-                    "facebook_url": "https://www.facebook.com/sample",
-                    "instagram_url": "",
-                    "youtube_url": "https://www.youtube.com/sample",
-                    "tiktok_url": "",
-                    "twitter_url": "",
+                    "facebook_url": "https://www.facebook.com/profile.php?id=61582117016278",
+                    "instagram_url": "https://www.instagram.com/thedancedolly/",
+                    "youtube_url": "https://www.youtube.com/@TheDanceDolly",
+                    "tiktok_url": "https://www.tiktok.com/@thedancedolly",
+                    "twitter_url": "https://www.twitter.com",
                     "threads_url": "",
                     "linkedin_url": "",
                     "bluesky_url": "",
@@ -4411,20 +4410,20 @@
                 }
               },
               "block_order": [
-                "text_kxR74k",
-                "social_links_CwX9rQ"
+                "text_Uymktc",
+                "social_links_P3qFw8"
               ]
             }
           },
           "block_order": [
-            "email_signup_gG9py9",
-            "group_3Q8fKG"
+            "email_signup_MVGdh6",
+            "group_pyWhhE"
           ]
         }
       },
       "block_order": [
-        "group_BJaeWe",
-        "group_t3ft8r"
+        "group_yA8RYQ",
+        "group_dCgyFg"
       ],
       "name": "t:names.email_signup",
       "settings": {
@@ -4479,6 +4478,6 @@
     "marquee_3aGBRc",
     "section_NGV3TK",
     "section_VytDXL",
-    "section_Bq8nHh"
+    "section_HAk46z"
   ]
 }
