@@ -887,7 +887,7 @@
                   "type": "text",
                   "name": "Description",
                   "settings": {
-                    "text": "<p>hello@dancedolly.com</p>",
+                    "text": "<p>support@dancedolly.com</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
