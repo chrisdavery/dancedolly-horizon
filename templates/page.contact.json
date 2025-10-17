@@ -220,7 +220,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "link": "",
+                "link": "mailto:hello@dancedolly.com",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -449,7 +449,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "link": "",
+                "link": "tel:+1 (555) 123-4567",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
