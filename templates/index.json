@@ -1024,9 +1024,9 @@
           "type": "video",
           "name": "t:names.video",
           "settings": {
-            "source": "uploaded",
+            "source": "url",
             "video": "shopify://files/videos/117897-713302650_tiny.mp4",
-            "video_url": "",
+            "video_url": "https://youtu.be/IAtDYNHha5c",
             "shorts_id": "",
             "video_autoplay": false,
             "video_loop": false,
