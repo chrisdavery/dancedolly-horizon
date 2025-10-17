@@ -1554,7 +1554,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>{{ closest.product.metafields.custom.short_description | metafield_tag }}</p>",
+                    "text": "{{ closest.product.metafields.custom.short_description | metafield_tag }}",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1916,6 +1916,9 @@
           ]
         }
       },
+      "custom_css": [
+        ".subtext strong {color: #bd18ad;}"
+      ],
       "name": "Sales Product",
       "settings": {
         "product": "the-dance-dolly",
