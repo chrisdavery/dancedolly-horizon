@@ -589,7 +589,7 @@
                 "accordion_row_hYHijW": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Is the rack stable?",
+                    "heading": "Is the pop-up rack stable?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
