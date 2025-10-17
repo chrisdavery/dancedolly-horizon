@@ -2812,12 +2812,46 @@
             "text_QUh3tY",
             "group_e44cYy"
           ]
+        },
+        "text_jYWAzY": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><em>Note: Dancers Against Cancer is an independent nonprofit organization. All donations related to Dance Dolly purchases are directed to DAC in accordance with our giveback commitment.</em></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "enable_mobile_size": false,
+            "mobile_font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "image_L6zEHg",
         "text_BXQ96B",
-        "group_xHHMrA"
+        "group_xHHMrA",
+        "text_jYWAzY"
       ],
       "name": "t:names.custom_section",
       "settings": {
