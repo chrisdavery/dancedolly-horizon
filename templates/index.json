@@ -3855,7 +3855,7 @@
                         "text_UTAx7e": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
+                            "text": "<p>At checkout, you will be charged a deposit. The remaining balance on your purchase will be charged when your purchase ships.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
