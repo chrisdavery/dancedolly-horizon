@@ -339,7 +339,7 @@
         "group_LNpdK8"
       ],
       "custom_css": [
-        ".shadow-box {}"
+        ".shadow-box {box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
