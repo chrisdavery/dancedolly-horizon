@@ -122,13 +122,13 @@
                 "text_Jpi9Uj": {
                   "type": "text",
                   "settings": {
-                    "text": "<h1>Our Story</h1>",
+                    "text": "<h1>OUR STORY</h1>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
-                    "type_preset": "h1",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "4.5rem",
                     "enable_mobile_size": false,
                     "mobile_font_size": "1rem",
                     "line_height": "normal",
