@@ -1024,8 +1024,8 @@
           "type": "video",
           "name": "t:names.video",
           "settings": {
-            "source": "uploaded",
-            "video": "shopify://files/videos/The Dance Dolly_Blue.mp4",
+            "source": "url",
+            "video": "shopify://files/videos/117897-713302650_tiny.mp4",
             "video_url": "https://youtu.be/IAtDYNHha5c",
             "shorts_id": "",
             "video_autoplay": false,
