@@ -502,7 +502,7 @@
                   "type": "icon",
                   "name": "t:names.icon",
                   "settings": {
-                    "icon": "chat_bubble",
+                    "icon": "silhouette",
                     "width": 24,
                     "link": "",
                     "open_in_new_tab": false
