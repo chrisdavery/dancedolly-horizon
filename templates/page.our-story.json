@@ -101,13 +101,13 @@
             "text_GVfg38": {
               "type": "text",
               "settings": {
-                "text": "<p>From chaos to calm - a dance parent's journey</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
+                "text": "<p>From chaos to calm - a dance parent’s journey</p>",
+                "width": "100%",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "custom",
                 "font": "var(--font-body--family)",
-                "font_size": "1.375rem",
+                "font_size": "1.5rem",
                 "enable_mobile_size": false,
                 "mobile_font_size": "1rem",
                 "line_height": "normal",
