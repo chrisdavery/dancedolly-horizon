@@ -3013,7 +3013,7 @@
                   "type": "_slide",
                   "settings": {
                     "media_type_1": "image",
-                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_2.jpg",
+                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_2_5727804c-bd25-4777-937d-ea9a1f4b5998.jpg",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3039,7 +3039,7 @@
                   "type": "_slide",
                   "settings": {
                     "media_type_1": "image",
-                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_3.jpg",
+                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_3_27078725-0e5d-4536-a853-82f95394a9b8.jpg",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3065,7 +3065,7 @@
                   "type": "_slide",
                   "settings": {
                     "media_type_1": "image",
-                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square.jpg",
+                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_8e3a7ccc-bf88-4b27-a083-254e049fc933.jpg",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3457,7 +3457,7 @@
       ],
       "custom_css": [
         ".bg-transparent {background: transparent;}",
-        "@media (min-width: 750px) {slideshow-slides[size=medium] {min-height: 44rem; }}"
+        "@media (min-width: 750px) {slideshow-slides[size=\"medium\"] {min-height: 44rem; }}"
       ],
       "name": "Slider",
       "settings": {
