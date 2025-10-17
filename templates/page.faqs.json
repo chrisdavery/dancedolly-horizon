@@ -1012,7 +1012,7 @@
                     "text_3wXUCH": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes—limited warranty (TBD terms; recommend 1-year against defects).</p>",
+                        "text": "<p>Yes, please see our Warranty <a href=\"/policies/refund-policy\" title=\"Refund Policy\">here</a>.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
