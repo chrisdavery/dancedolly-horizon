@@ -3065,7 +3065,33 @@
                   "type": "_slide",
                   "settings": {
                     "media_type_1": "image",
-                    "image_1": "shopify://shop_images/Every_Dolly_Makes_a_Difference_3_2_ratio_or_square_8e3a7ccc-bf88-4b27-a083-254e049fc933.jpg",
+                    "image_1": "shopify://shop_images/JoJo_Session7099_89eeece3-4ef9-4fa4-8584-70b816c30b49.jpg",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "slide_GxxUBU": {
+                  "type": "_slide",
+                  "settings": {
+                    "media_type_1": "image",
+                    "image_1": "shopify://shop_images/JoJo_Session7772_d105cc80-6ffc-4a05-91a0-2489ca26904a.jpg",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3091,7 +3117,8 @@
               "block_order": [
                 "slide_AYFtP9",
                 "slide_7Ud7wP",
-                "slide_JAMqAY"
+                "slide_JAMqAY",
+                "slide_GxxUBU"
               ]
             }
           },
