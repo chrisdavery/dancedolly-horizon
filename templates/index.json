@@ -660,11 +660,45 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "text_TgqeY6": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Transport any dance bag with the rack up</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "enable_mobile_size": false,
+                    "mobile_font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "custom_mobile_padding": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "image_LAaQcA",
-                "text_fXtGCp"
+                "text_fXtGCp",
+                "text_TgqeY6"
               ]
             },
             "group_9kpcCV": {
