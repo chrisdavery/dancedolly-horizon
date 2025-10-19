@@ -782,13 +782,14 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
                 "video_position": "cover",
-                "background_image_position": "cover",
+                "background_image": "shopify://shop_images/rack_ea3eabfb-29d7-4ae3-8a7e-10c04027b509.png",
+                "background_image_position": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -812,29 +813,6 @@
                 "css_class": ""
               },
               "blocks": {
-                "image_mjkWpq": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/rack_ea3eabfb-29d7-4ae3-8a7e-10c04027b509.png",
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
                 "group_KmNMKj": {
                   "type": "group",
                   "name": "t:names.group",
@@ -962,7 +940,6 @@
                 }
               },
               "block_order": [
-                "image_mjkWpq",
                 "group_KmNMKj"
               ]
             },
