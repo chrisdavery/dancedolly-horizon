@@ -172,11 +172,11 @@ product-custom-property-component:has([type="hidden"]) {
     max-width: 30rem !important;
 }
 
-slideshow-controls:has(.slideshow-controls__dots), slideshow-component[autoplay] slideshow-controls {
+slideshow-controls:has(.slideshow-controls__dots) {
     mix-blend-mode: unset !important;
 }
 
-slideshow-controls .slideshow-control {
+slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
     color: rgb(255, 255, 255);
 }
 
