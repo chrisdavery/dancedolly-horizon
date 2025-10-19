@@ -172,6 +172,14 @@ product-custom-property-component:has([type="hidden"]) {
     max-width: 30rem !important;
 }
 
+slideshow-controls:has(.slideshow-controls__dots), slideshow-component[autoplay] slideshow-controls {
+    mix-blend-mode: unset !important;
+}
+
+slideshow-controls .slideshow-control {
+    color: rgb(255, 255, 255);
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
