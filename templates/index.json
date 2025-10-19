@@ -4690,7 +4690,7 @@
       ],
       "custom_css": [
         ".bg-transparent {background: transparent;}",
-        "slideshow-slides[size=\"medium\"] {min-height: 23.25rem;}",
+        "slideshow-slides[size=\"medium\"] {min-height: 17.25rem;}",
         "@media (min-width: 750px) {slideshow-slides[size=\"medium\"] {min-height: 40rem; }}"
       ],
       "name": "Slider",
