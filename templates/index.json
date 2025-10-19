@@ -509,7 +509,7 @@
             "vertical_on_mobile": true,
             "reverse_on_mobile": false,
             "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-end",
+            "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "custom_mobile_alignment": false,
