@@ -305,6 +305,7 @@
                 },
                 "hidden-property": {
                   "type": "hidden-property",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "property_key": "{{ closest.product.metafields.custom.custom_line_item_property_name.value }}",
