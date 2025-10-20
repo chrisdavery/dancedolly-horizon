@@ -1102,7 +1102,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Attach the Costume Keeper for extra storage.</p>",
+                        "text": "<p>Attach the Costume Keeper™ for extra storage.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
