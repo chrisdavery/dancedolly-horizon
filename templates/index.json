@@ -1191,7 +1191,6 @@
               "type": "_slide",
               "settings": {
                 "media_type_1": "image",
-                "image_1": "shopify://shop_images/Untitled_design_14_19e3a5e5-a3f4-4cda-9d86-f0677972932a.png",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1386,7 +1385,6 @@
               "type": "_slide",
               "settings": {
                 "media_type_1": "image",
-                "image_1": "shopify://shop_images/Untitled_design_14_19e3a5e5-a3f4-4cda-9d86-f0677972932a.png",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1581,7 +1579,6 @@
               "type": "_slide",
               "settings": {
                 "media_type_1": "image",
-                "image_1": "shopify://shop_images/Untitled_design_14_19e3a5e5-a3f4-4cda-9d86-f0677972932a.png",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1785,7 +1782,7 @@
         "slideshow_dgXFgt"
       ],
       "custom_css": [
-        "@media (min-width:750px) {.slideshow-block {display: none; }}",
+        "@media (min-width: 750px) {.slideshow-block {display: none; }}",
         "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; }}"
       ],
       "name": "t:names.hero",
