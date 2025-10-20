@@ -1967,7 +1967,7 @@
                         "text_JE8cVW": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>We’re targeting deliveries by the end of Q1 2026.</p>",
+                            "text": "<p>We’re targeting deliveries by the end of Q1 2026 - just in time for comp season!</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2013,7 +2013,7 @@
                         "text_izyy4X": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Under 20 lbs.</p>",
+                            "text": "<p>Just under 20 lbs.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2059,7 +2059,7 @@
                         "text_iP8KJE": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Full refund anytime before shipment. After delivery: TBD (recommend 30-day returns).</p>",
+                            "text": "<p>Full refund anytime before the end of the pre-order window, which is 12/31/25. For further information, please see our Warrant & Return Policy.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2105,7 +2105,7 @@
                         "text_jTiEyK": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Yes. Pre-orders reserve your spot in the first production run.</p>",
+                            "text": "<p>Yes. Pre-orders reserve your spot in the first production run. The pre-order window will run from 10/20/25 - 12/31/25.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2151,7 +2151,7 @@
                         "text_38KQaC": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>At checkout (standard for pre-orders). If you prefer “charge on ship,” we can switch this.</p>",
+                            "text": "<p>At checkout, you will be charged a deposit. The remaining balance on your purchase will be charged when your purchase ships.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2197,7 +2197,7 @@
                         "text_UXX93D": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Yes—our wide loading board is designed to carry any major dance bag.</p>",
+                            "text": "<p>Yes—our wide loading board is designed to transport most any dance bag in the industry, up to 36” in length, with the rack up.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
