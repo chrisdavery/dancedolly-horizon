@@ -1352,27 +1352,11 @@
                         "mobile-padding-inline-end": 0
                       },
                       "blocks": {}
-                    },
-                    "button_k6bfeV": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Shop now",
-                        "link": "shopify://collections/all",
-                        "open_in_new_tab": false,
-                        "style_class": "button",
-                        "width": "custom",
-                        "custom_width": 58,
-                        "width_mobile": "custom",
-                        "custom_width_mobile": 58
-                      },
-                      "blocks": {}
                     }
                   },
                   "block_order": [
                     "text_3g6fzn",
-                    "text_7xHkR6",
-                    "button_k6bfeV"
+                    "text_7xHkR6"
                   ]
                 }
               },
@@ -1546,27 +1530,11 @@
                         "mobile-padding-inline-end": 0
                       },
                       "blocks": {}
-                    },
-                    "button_TNKjyP": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Shop now",
-                        "link": "shopify://collections/all",
-                        "open_in_new_tab": false,
-                        "style_class": "button",
-                        "width": "custom",
-                        "custom_width": 58,
-                        "width_mobile": "custom",
-                        "custom_width_mobile": 58
-                      },
-                      "blocks": {}
                     }
                   },
                   "block_order": [
                     "text_qgK4B3",
-                    "text_C6Q934",
-                    "button_TNKjyP"
+                    "text_C6Q934"
                   ]
                 }
               },
@@ -1740,27 +1708,11 @@
                         "mobile-padding-inline-end": 0
                       },
                       "blocks": {}
-                    },
-                    "button_UKTmpm": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Shop now",
-                        "link": "shopify://collections/all",
-                        "open_in_new_tab": false,
-                        "style_class": "button",
-                        "width": "custom",
-                        "custom_width": 58,
-                        "width_mobile": "custom",
-                        "custom_width_mobile": 58
-                      },
-                      "blocks": {}
                     }
                   },
                   "block_order": [
                     "text_TnqtPP",
-                    "text_dajrUM",
-                    "button_UKTmpm"
+                    "text_dajrUM"
                   ]
                 }
               },
@@ -1775,11 +1727,85 @@
             "slide_eK3jdq",
             "slide_4AXMkW"
           ]
+        },
+        "group_jtxYGf": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "reverse_on_mobile": false,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "custom_mobile_alignment": false,
+            "mobile_vertical_alignment": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "enable_mobile_gap": false,
+            "mobile_gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_mobile_radius": false,
+            "mobile_border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "custom_mobile_padding": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0,
+            "css_class": "desktop:hidden"
+          },
+          "blocks": {
+            "button_EaffFx": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "custom",
+                "custom_width": 58,
+                "width_mobile": "custom",
+                "custom_width_mobile": 75
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_EaffFx"
+          ]
         }
       },
       "block_order": [
         "group_9VL7Cc",
-        "slideshow_dgXFgt"
+        "slideshow_dgXFgt",
+        "group_jtxYGf"
       ],
       "custom_css": [
         "@media (min-width: 750px) {.slideshow-block {display: none; }}",
