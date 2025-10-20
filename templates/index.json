@@ -1783,7 +1783,7 @@
       ],
       "custom_css": [
         "@media (min-width: 750px) {.slideshow-block {display: none; }}",
-        "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; } slideshow-component .hero__media-wrapper {display: none; }}"
+        "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; } slideshow-component .section-background {display: none; }}"
       ],
       "name": "t:names.hero",
       "settings": {
