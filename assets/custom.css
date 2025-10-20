@@ -180,6 +180,10 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
     color: rgb(255, 255, 255);
 }
 
+.shopify-policy__container {
+    padding-block: var(--padding-xl) var(--padding-3xl) !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
