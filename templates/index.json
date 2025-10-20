@@ -1179,7 +1179,7 @@
           "settings": {
             "icons_style": "arrows_large",
             "slideshow_controls_style": "dots",
-            "color_scheme": "",
+            "color_scheme": "scheme-840db1ab-dc59-4b77-afdb-c0b8194b0f3a",
             "autoplay": false,
             "autoplay_speed": 4,
             "slide_height": "medium",
@@ -1783,7 +1783,7 @@
       ],
       "custom_css": [
         "@media (min-width: 750px) {.slideshow-block {display: none; }}",
-        "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; } .slideshow-block .section-background,.slideshow-block .slide__image-container {display: none !important; }}"
+        "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; } .slideshow-block .section-background, .slideshow-block .slide__image-container {display: none !important; }}"
       ],
       "name": "t:names.hero",
       "settings": {
