@@ -1243,10 +1243,10 @@
               "settings": {
                 "image": "shopify://shop_images/tow_mode.png",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "custom",
+                "width_mobile": "fill",
                 "custom_width_mobile": 66,
                 "height": "fit",
                 "border": "none",
@@ -1438,10 +1438,10 @@
               "settings": {
                 "image": "shopify://shop_images/rack_ea3eabfb-29d7-4ae3-8a7e-10c04027b509.png",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "custom",
+                "width_mobile": "fill",
                 "custom_width_mobile": 66,
                 "height": "fit",
                 "border": "none",
@@ -1633,10 +1633,10 @@
               "settings": {
                 "image": "shopify://shop_images/box_mode.png",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "custom",
+                "width_mobile": "fill",
                 "custom_width_mobile": 66,
                 "height": "fit",
                 "border": "none",
@@ -1804,7 +1804,7 @@
         "slide_KfwzNb"
       ],
       "custom_css": [
-        "@media (min-width: 750px) {{display: none; }}"
+        "@media (min-width: 750px) {{display: none; }.image-block img {object-fit: contain !important;}}"
       ],
       "name": "t:names.slideshow",
       "settings": {
