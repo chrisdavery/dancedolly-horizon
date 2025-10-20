@@ -3092,6 +3092,7 @@
             "text_gazVn8": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
                 "text": "<p><em>Note: Dancers Against Cancer is an independent nonprofit organization. All donations related to Dance Dolly purchases are directed to DAC in accordance with our giveback commitment.</em></p>",
                 "width": "100%",
