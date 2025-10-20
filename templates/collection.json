@@ -832,11 +832,23 @@
         "add_section_id": false,
         "section_id": ""
       }
+    },
+    "custom_liquid_MXhCmE": {
+      "type": "custom-liquid",
+      "name": "Custom CSS",
+      "settings": {
+        "custom_liquid": "<style>\n.shopify-section:has(email-signup-block) {\ndisplay: none;\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "section",
     "main",
-    "section_hAgVmQ"
+    "section_hAgVmQ",
+    "custom_liquid_MXhCmE"
   ]
 }
