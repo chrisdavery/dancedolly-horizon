@@ -1785,7 +1785,7 @@
         "slideshow_dgXFgt"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {{display: none; } slideshow-component .image-block__image {object-fit: contain !important; }}"
+        "@media (max-width: 749px) {slideshow-component .image-block__image {object-fit: contain !important; }}"
       ],
       "name": "t:names.hero",
       "settings": {
