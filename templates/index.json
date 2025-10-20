@@ -1177,7 +1177,7 @@
           "type": "slideshow",
           "name": "t:names.slideshow",
           "settings": {
-            "icons_style": "arrows_large",
+            "icons_style": "chevron_large",
             "slideshow_controls_style": "dots",
             "color_scheme": "scheme-840db1ab-dc59-4b77-afdb-c0b8194b0f3a",
             "autoplay": false,
