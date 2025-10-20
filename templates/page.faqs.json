@@ -920,7 +920,7 @@
                     "text_arx9WT": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Initially, we will only be shipping in the Continental United States. International shipping may follow based on customer demand. Please contact us at <a href=\"mailto:support@dancedolly.com\" title=\"mailto:support@dancedolly.com\">support@dancedolly.com</a> with inquiries. </p>",
+                        "text": "<p>At this time, we only ship to addresses in the Continental United States. For Alaska, Hawaii, U.S. territories, or international orders, please contact us at <a href=\"mailto:support@dancedolly.com\"><span style=\"text-decoration:underline\">support@dancedolly.com</span></a> before placing your order.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
