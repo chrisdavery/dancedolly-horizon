@@ -16,9 +16,9 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/man_jumping-fotor-20250329145128_5a1f7496-b49a-4774-b931-28dcb4add0c1.png",
+            "image": "shopify://shop_images/Home_page_top_-_10.18.25.png",
             "link": "",
-            "image_ratio": "landscape",
+            "image_ratio": "adapt",
             "width": "custom",
             "custom_width": 80,
             "width_mobile": "fill",
@@ -212,13 +212,13 @@
           "type": "filters",
           "static": true,
           "settings": {
-            "enable_filtering": true,
+            "enable_filtering": false,
             "filter_style": "horizontal",
             "filter_width": "centered",
             "text_label_case": "default",
             "show_swatch_label": false,
             "show_filter_label": false,
-            "enable_sorting": true,
+            "enable_sorting": false,
             "enable_grid_density": false,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -273,7 +273,7 @@
                 "type_preset": "h4",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
-                "enable_mobile_size": false,
+                "enable_mobile_size": true,
                 "mobile_font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
@@ -341,7 +341,7 @@
         "mobile_product_card_size": "small",
         "product_grid_width": "centered",
         "full_width_on_mobile": false,
-        "columns_gap_horizontal": 32,
+        "columns_gap_horizontal": 42,
         "columns_gap_vertical": 24,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
@@ -832,11 +832,23 @@
         "add_section_id": false,
         "section_id": ""
       }
+    },
+    "custom_liquid_MXhCmE": {
+      "type": "custom-liquid",
+      "name": "Custom CSS",
+      "settings": {
+        "custom_liquid": "<style>\n.shopify-section:has(email-signup-block) {\ndisplay: none;\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "section",
     "main",
-    "section_hAgVmQ"
+    "section_hAgVmQ",
+    "custom_liquid_MXhCmE"
   ]
 }
