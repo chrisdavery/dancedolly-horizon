@@ -966,7 +966,7 @@
                     "text_HBNmiq": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our Pre-Order Special will ship free, but it needs to be ordered no later than 12/31/25. Standard shipping rates apply at checkout for any individual items.</p>",
+                        "text": "<p>Our Pre-Order Special will ship free, but it needs to be ordered no later than 12/31/25. Standard shipping rates apply at checkout for any other items.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -1012,7 +1012,7 @@
                     "text_3wXUCH": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes, please see our Warranty <a href=\"/policies/refund-policy\" title=\"Refund Policy\">here</a>.</p>",
+                        "text": "<p>Yes, please see our <a href=\"https://www.dancedolly.com/policies/refund-policy\"><span style=\"text-decoration:underline\">Warranty Policy</span></a> for full details.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
