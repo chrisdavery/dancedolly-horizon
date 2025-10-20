@@ -65,6 +65,7 @@
     "auto_open_cart_drawer": true,
     "show_cart_note": false,
     "show_add_discount_code": false,
+    "show_installments": false,
     "show_accelerated_checkout_buttons": false,
     "drawer_drop_shadow": true,
     "icon_stroke": "default",
@@ -688,7 +689,7 @@
       },
       "scheme-840db1ab-dc59-4b77-afdb-c0b8194b0f3a": {
         "settings": {
-          "background": "#ffffff00",
+          "background": "rgba(0,0,0,0)",
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#00abc5",
