@@ -1182,7 +1182,7 @@
             "color_scheme": "scheme-840db1ab-dc59-4b77-afdb-c0b8194b0f3a",
             "autoplay": false,
             "autoplay_speed": 4,
-            "slide_height": "medium",
+            "slide_height": "auto",
             "padding-block-start": 0,
             "padding-block-end": 0
           },
