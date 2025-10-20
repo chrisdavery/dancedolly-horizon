@@ -1975,7 +1975,7 @@
       ],
       "name": "Sales Product",
       "settings": {
-        "product": "the-dance-dolly™-pro",
+        "product": "the-dance-dolly-pro",
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
         "equal_columns": true,
