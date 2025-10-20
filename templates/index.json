@@ -377,7 +377,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop now",
-                "link": "shopify://products/the-dance-dolly",
+                "link": "shopify://products/the-dance-dolly™-pro",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
@@ -1995,7 +1995,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "LEARN MORE",
-                "link": "shopify://products/the-dance-dolly",
+                "link": "shopify://products/the-dance-dolly™-pro",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
