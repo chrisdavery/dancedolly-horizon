@@ -310,7 +310,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Our Mission</h2>",
+                "text": "<h2>DAC's Mission</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -343,7 +343,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Every purchase powers help and hope for dance families facing cancer. DAC’s mission is to create an alliance in the dance community that provides financial support and inspiration to dance educators, choreographers, dancers, and their families impacted by cancer.</p>",
+                "text": "<p>To create an alliance in the dance community that provides financial support and inspiration to dance educators, choreographers, dancers, and their families impacted by cancer.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
