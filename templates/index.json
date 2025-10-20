@@ -3412,7 +3412,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Six shock-absorbing wheels glide through crowds; two foot brakes for confident stops and four swivels for tight turns.</p>",
+                "text": "<p>Six shock-absorbing wheels glide through crowds; four swivels with foot brakes for confident stops and two directional wheels for tight turns and no swaying.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -3823,7 +3823,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Roomy wagon-like box attaches to the base with velcro straps and keeps everything organized and within reach.</p>",
+                "text": "<p>Our optional, roomy wagon-like box attaches to the base with velcro straps and keeps everything organized and within reach.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
