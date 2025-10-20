@@ -103,6 +103,7 @@
 
     if video_autoplay == true
       assign controls = false
+      assign video_muted = true
     endif
   %}
 
@@ -126,7 +127,7 @@
         | external_video_tag: data-video-type: 'vimeo'
       }}
     {% else %}
-      {{ video | video_tag: image_size: '2500x', autoplay: true, loop: video_loop, muted: false, controls: controls }}
+      {{ video | video_tag: image_size: '2500x', autoplay: true, loop: video_loop, muted: video_muted, controls: controls }}
     {% endif %}
   {% endcapture %}
 {% endif %}
