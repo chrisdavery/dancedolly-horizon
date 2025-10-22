@@ -22,11 +22,6 @@
     margin-right: var(--gap-xl);
 }
 
-.header-actions__cart-icon svg {
-    height: 1.8rem !important;
-    width: auto !important;
-}
-
 .button {
     font-weight: bold;
     font-size: var(--font-size--xl);
