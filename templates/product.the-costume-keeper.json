@@ -305,6 +305,7 @@
                 },
                 "hidden-property": {
                   "type": "hidden-property",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "property_key": "{{ closest.product.metafields.custom.custom_line_item_property_name.value }}",
@@ -1837,7 +1838,7 @@
                         "text_iP8KJE": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Full refund anytime before the end of the pre-order window, which is 12/31/25. For further information, please see our Warrant & Return Policy.</p>",
+                            "text": "<p>Full refund anytime before the end of the pre-order window, which is 12/31/25. For further information, please see our <a href=\"/policies/refund-policy\" title=\"Refund Policy\">Warrant & Return Policy</a>.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
