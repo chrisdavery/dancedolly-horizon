@@ -125,8 +125,8 @@
                 "css_class": ""
               },
               "blocks": {
-                "product_title_eYVzTU": {
-                  "type": "product-title",
+                "text_xpVMaM": {
+                  "type": "text",
                   "name": "t:names.title",
                   "settings": {
                     "width": "100%",
@@ -176,7 +176,7 @@
                 }
               },
               "block_order": [
-                "product_title_eYVzTU",
+                "text_xpVMaM",
                 "price_tVjtKg"
               ]
             },

@@ -50,7 +50,7 @@
       "one": "{{ count }} filter toegepast",
       "other": "{{ count }} filters toegepast"
     },
-    "account": "Accountmenu openen",
+    "account": "Account",
     "cart": "Winkelwagen",
     "cart_count": "Totaal aantal artikelen in winkelwagen",
     "menu": "Menu",
@@ -65,8 +65,7 @@
     "inventory_status": "Voorraadstatus",
     "pause_video": "Video pauzeren",
     "find_country": "Land zoeken",
-    "localization_region_and_language": "Regio- en taalkiezer openen",
-    "open_search_modal": "Zoeken openen",
+    "localization_region_and_language": "Regio- en taalkiezer",
     "decrease_quantity": "Aantal verlagen",
     "increase_quantity": "Aantal verhogen",
     "quantity": "Aantal",
