@@ -1836,7 +1836,7 @@
         "gradient_direction": "to top",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 48,
+        "padding-block-start": 26,
         "padding-block-end": 48
       }
     },
