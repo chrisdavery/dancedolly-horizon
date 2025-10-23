@@ -50,40 +50,103 @@
     {{ styles }}
   "
 >
-  <div class="section-resource-list__header">
-    {%- content_for 'block', type: '_product-list-content', id: 'static-header', columns: section.settings.columns, items_size: section.blocks.size -%}
+  <div class="custom-section-background">
+    {% render 'background-media',
+      background_media: section.settings.background_media,
+      background_video: section.settings.video,
+      background_video_position: section.settings.video_position,
+      background_image: section.settings.background_image,
+      background_image_position: section.settings.background_image_position
+    %}
   </div>
 
-  {% capture list_items %}
-    {% content_for 'blocks' %}
-  {% endcapture %}
-
-  {% liquid
-    # Create an array from the list items to be used for different layout types
-    assign list_items_array = list_items | strip | remove_last: '<!--@list/split-->' | split: '<!--@list/split-->'
-  %}
-
   <div
-    class="
-      resource-list
-      carousel-list
-      {% if section.settings.peek_desktop == true %}carousel--peek{% endif %}
-      {% if section.settings.carousel_on_mobile and section.settings.layout_type != 'carousel' %}
-        hidden--mobile
-      {% endif %}
-      {{ classes }}
-    "
-    style="{{ styles }}"
-    {% if section.settings.layout_type == 'grid' %}
-      data-testid="carousel-list-grid"
-    {% endif %}
+    class="custom-section-content"
   >
-    {% case section.settings.layout_type %}
-      {% when 'grid' %}
-        {{ list_items }}
-      {% when 'carousel' %}
+    {% if section.settings.toggle_overlay %}
+      {% render 'overlay', settings: section.settings, layer: '0' %}
+    {% endif %}
+    <div class="section-resource-list__header">
+      {%- content_for 'block', type: '_product-list-content', id: 'static-header', columns: section.settings.columns, items_size: section.blocks.size -%}
+    </div>
+
+    {% capture list_items %}
+      {% content_for 'blocks' %}
+    {% endcapture %}
+
+    {% liquid
+      # Create an array from the list items to be used for different layout types
+      assign list_items_array = list_items | strip | remove_last: '<!--@list/split-->' | split: '<!--@list/split-->'
+    %}
+
+    {% if list_items_array.size > 1 %}
+      {% capture controls %}
+        {%- render 'slideshow-controls',
+          style: section.settings.slideshow_controls_style,
+          autoplay: section.settings.autoplay,
+          item_count: list_items_array.size,
+          show_arrows: false,
+          arrows_on_media: true,
+          controls_on_media: true,
+          pagination_position: 'center',
+          icon_style: section.settings.icons_style
+        -%}
+      {% endcapture %}
+    {% endif %}
+
+    <div
+      class="
+        resource-list
+        carousel-list
+        {% if section.settings.peek_desktop == true %}carousel--peek{% endif %}
+        {% if section.settings.carousel_on_mobile and section.settings.layout_type != 'carousel' %}
+          hidden--mobile
+        {% endif %}
+        {{ classes }}
+      "
+      style="{{ styles }}"
+      {% if section.settings.layout_type == 'grid' %}
+        data-testid="carousel-list-grid"
+      {% endif %}
+    >
+      {% case section.settings.layout_type %}
+        {% when 'grid' %}
+          {{ list_items }}
+        {% when 'carousel' %}
+          {% render 'resource-list-carousel',
+            ref: 'Carousel',
+            controls: controls,
+            autoplay: section.settings.autoplay,
+            autoplay_speed: section.settings.autoplay_speed,
+            slides: list_items_array,
+            slide_count: max_items,
+            settings: section.settings,
+            slide_width_max: '450px'
+          %}
+      {% endcase %}
+    </div>
+
+    {% if section.settings.layout_type != 'carousel' and section.settings.carousel_on_mobile %}
+      {% liquid
+        assign mobile_carousel_gap = section.settings.columns_gap
+      %}
+      <div
+        class="
+          resource-list
+          hidden--desktop
+          resource-list__carousel
+          force-full-width
+        "
+        style="
+          --resource-list-column-gap-desktop: {{ mobile_carousel_gap }}px;
+          --column-count: {{ section.settings.columns }};
+          --column-count-mobile: 1;
+          --mobile-card-size: {{ section.settings.mobile_card_size }};
+        "
+      >
         {% render 'resource-list-carousel',
-          ref: 'Carousel',
+          ref: 'CarouselMobile',
+          controls: controls,
           autoplay: section.settings.autoplay,
           autoplay_speed: section.settings.autoplay_speed,
           slides: list_items_array,
@@ -91,38 +154,9 @@
           settings: section.settings,
           slide_width_max: '450px'
         %}
-    {% endcase %}
+      </div>
+    {% endif %}
   </div>
-
-  {% if section.settings.layout_type != 'carousel' and section.settings.carousel_on_mobile %}
-    {% liquid
-      assign mobile_carousel_gap = section.settings.columns_gap
-    %}
-    <div
-      class="
-        resource-list
-        hidden--desktop
-        resource-list__carousel
-        force-full-width
-      "
-      style="
-        --resource-list-column-gap-desktop: {{ mobile_carousel_gap }}px;
-        --column-count: {{ section.settings.columns }};
-        --column-count-mobile: 1;
-        --mobile-card-size: {{ section.settings.mobile_card_size }};
-      "
-    >
-      {% render 'resource-list-carousel',
-        ref: 'CarouselMobile',
-        autoplay: section.settings.autoplay,
-        autoplay_speed: section.settings.autoplay_speed,
-        slides: list_items_array,
-        slide_count: max_items,
-        settings: section.settings,
-        slide_width_max: '450px'
-      %}
-    </div>
-  {% endif %}
 </div>
 
 {% stylesheet %}
@@ -437,6 +471,120 @@
       "id": "color_scheme",
       "label": "t:settings.color_scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "select",
+      "id": "background_media",
+      "label": "t:settings.background_media",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:options.none"
+        },
+        {
+          "value": "image",
+          "label": "t:options.image"
+        },
+        {
+          "value": "video",
+          "label": "t:options.video"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "t:settings.video",
+      "visible_if": "{{ section.settings.background_media == 'video' }}"
+    },
+    {
+      "type": "select",
+      "id": "video_position",
+      "label": "t:settings.video_position",
+      "options": [
+        {
+          "value": "cover",
+          "label": "t:options.cover"
+        },
+        {
+          "value": "contain",
+          "label": "t:options.contain"
+        }
+      ],
+      "default": "cover",
+      "visible_if": "{{ section.settings.background_media == 'video' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "t:settings.image",
+      "visible_if": "{{ section.settings.background_media == 'image' }}"
+    },
+    {
+      "type": "select",
+      "id": "background_image_position",
+      "label": "t:settings.image_position",
+      "options": [
+        {
+          "value": "cover",
+          "label": "t:options.cover"
+        },
+        {
+          "value": "fit",
+          "label": "t:options.fit"
+        }
+      ],
+      "default": "cover",
+      "visible_if": "{{ section.settings.background_media == 'image' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "toggle_overlay",
+      "label": "t:settings.background_overlay",
+      "visible_if": "{{ section.settings.background_media != 'none' }}"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "t:settings.overlay_color",
+      "alpha": true,
+      "default": "#00000026",
+      "visible_if": "{{ section.settings.toggle_overlay }}"
+    },
+    {
+      "type": "select",
+      "id": "overlay_style",
+      "label": "t:settings.overlay_style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "t:options.solid"
+        },
+        {
+          "value": "gradient",
+          "label": "t:options.gradient"
+        }
+      ],
+      "default": "solid",
+      "visible_if": "{{ section.settings.toggle_overlay }}"
+    },
+    {
+      "type": "select",
+      "id": "gradient_direction",
+      "label": "t:settings.gradient_direction",
+      "options": [
+        {
+          "value": "to top",
+          "label": "t:options.up"
+        },
+        {
+          "value": "to bottom",
+          "label": "t:options.down"
+        }
+      ],
+      "default": "to top",
+      "visible_if": "{{ section.settings.toggle_overlay and section.settings.overlay_style == 'gradient' }}"
     },
     {
       "type": "header",
