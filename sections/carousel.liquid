@@ -79,21 +79,6 @@
       assign list_items_array = list_items | strip | remove_last: '<!--@list/split-->' | split: '<!--@list/split-->'
     %}
 
-    {% if list_items_array.size > 1 %}
-      {% capture controls %}
-        {%- render 'slideshow-controls',
-          style: section.settings.slideshow_controls_style,
-          autoplay: section.settings.autoplay,
-          item_count: list_items_array.size,
-          show_arrows: false,
-          arrows_on_media: true,
-          controls_on_media: true,
-          pagination_position: 'center',
-          icon_style: section.settings.icons_style
-        -%}
-      {% endcapture %}
-    {% endif %}
-
     <div
       class="
         resource-list
@@ -115,7 +100,6 @@
         {% when 'carousel' %}
           {% render 'resource-list-carousel',
             ref: 'Carousel',
-            controls: controls,
             autoplay: section.settings.autoplay,
             autoplay_speed: section.settings.autoplay_speed,
             slides: list_items_array,
@@ -146,7 +130,6 @@
       >
         {% render 'resource-list-carousel',
           ref: 'CarouselMobile',
-          controls: controls,
           autoplay: section.settings.autoplay,
           autoplay_speed: section.settings.autoplay_speed,
           slides: list_items_array,
