@@ -2529,8 +2529,8 @@
       "name": "Carousel",
       "settings": {
         "alignment": "left",
-        "layout_type": "carousel",
-        "carousel_on_mobile": false,
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
         "autoplay": false,
         "autoplay_speed": 4,
         "columns": 3,
