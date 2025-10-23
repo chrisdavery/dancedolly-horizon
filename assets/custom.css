@@ -211,7 +211,7 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
         padding-block: var(--padding-xs) !important;
     }
 
-    :is(.carousel--mobile-full-width) > .resource-list__carousel {
+    :is(.carousel--mobile-full-width) > .resource-list__carousel,:is(.carousel--mobile-full-width) .custom-section-content {
         grid-column: 1 / -1;
     }
 
