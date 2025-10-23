@@ -2542,7 +2542,7 @@
         "icons_style": "chevron_large",
         "icons_shape": "none",
         "section_width": "page-width",
-        "full_width_on_mobile": false,
+        "full_width_on_mobile": true,
         "gap": 0,
         "color_scheme": "scheme-0bb1da98-887a-4cb0-adbe-f9587f88299e",
         "background_media": "image",
