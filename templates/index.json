@@ -2524,7 +2524,7 @@
         "carousel_card_HnXy4B"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {.image-block__image {object-fit: contain !important; --ratio: 1 !important; } .image-block {--ratio: 1 !important; }}"
+        "@media (max-width: 749px) {.image-block__image {object-fit: contain !important; --ratio: 0.8 !important; } .image-block {--ratio: 0.8 !important; }}"
       ],
       "name": "Carousel",
       "settings": {
