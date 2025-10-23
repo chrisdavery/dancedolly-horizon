@@ -1390,7 +1390,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "custom_mobile_padding": true,
+            "custom_mobile_padding": false,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 16,
@@ -1717,7 +1717,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "custom_mobile_padding": true,
+            "custom_mobile_padding": false,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 16,
@@ -2245,7 +2245,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "custom_mobile_padding": true,
+            "custom_mobile_padding": false,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 16,
@@ -2524,7 +2524,7 @@
         "carousel_card_HnXy4B"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {.image-block__image {object-fit: contain !important; --ratio: 1 !important; } .image-block {--ratio: 1 !important; }}"
+        "@media (max-width: 749px) {.image-block__image {object-fit: contain !important; --ratio: 0.8 !important; } .image-block {--ratio: 0.8 !important; }}"
       ],
       "name": "Carousel",
       "settings": {
@@ -2542,7 +2542,7 @@
         "icons_style": "chevron_large",
         "icons_shape": "none",
         "section_width": "page-width",
-        "full_width_on_mobile": false,
+        "full_width_on_mobile": true,
         "gap": 0,
         "color_scheme": "scheme-0bb1da98-887a-4cb0-adbe-f9587f88299e",
         "background_media": "image",
