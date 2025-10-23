@@ -26,10 +26,24 @@
             "case": "uppercase"
           },
           "blocks": {}
+        },
+        "announcement_yFwG8T": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Plus: Free Shipping • Free Costume Keeper ($100 Value) • $10 Donated to DAC<strong>                                </strong>",
+            "link": "shopify://products/the-dance-dolly-pro",
+            "font": "var(--font-accent--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "uppercase"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "announcement_BxgCk9"
+        "announcement_BxgCk9",
+        "announcement_yFwG8T"
       ],
       "custom_css": [
         ".announcement-bar__slides:only-child {max-width: 100%;}",
