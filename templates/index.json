@@ -5873,7 +5873,7 @@
                         "text_BRkiCR": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>Full refund anytime before the end of the pre-order window, which is 12/31/25. For further information, please see our <a href=\"https://www.dancedolly.com/policies/refund-policy\"><span style=\"text-decoration:underline\">Warrant & Return Policy</span></a>.</p>",
+                            "text": "<p>Full refund anytime before the end of the pre-order window, which is 12/31/25. For further information, please see our <a href=\"https://www.dancedolly.com/policies/refund-policy\"><span style=\"text-decoration:underline\">Warranty & Return Policy</span></a>.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
