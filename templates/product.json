@@ -129,6 +129,7 @@
                   "type": "text",
                   "name": "t:names.title",
                   "settings": {
+                    "text": "<p>{{ closest.product.title }}</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -148,7 +149,12 @@
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-end": 0,
+                    "custom_mobile_padding": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
                   },
                   "blocks": {}
                 },
@@ -173,11 +179,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "custom_liquid_VVczYC": {
+                  "type": "custom-liquid",
+                  "name": "Preorder price",
+                  "settings": {
+                    "custom_liquid": "{% assign preorder = product.selling_plan_groups | where: 'name', 'Preorder' %}\n\n{% if preorder.size > 0 %}\n{% style %}\n    div:has( > .preorder-group) {\n        width: 100%;\n    }\n    .text-pre-price {\n        font-size: var(--font-size--sm);\n    }\n    .price-pre {\n        font-weight: var(--font-accent--weight);\n        font-family: var(--font-accent--family);\n        font-size: var(--font-size--sm);\n    }\n    .discounted-pre {\n        color: var(--color-foreground-heading);\n        font-size: var(--font-size--lg);\n    }\n    .preorder-group {\n        display: flex;\n        flex-direction: column;\n        gap: var(--gap-lg);\n        background: #fafafa;\n        border-radius: 8px;\n        padding: 20px;\n    }\n    .flex-price-pre {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        line-height: 1em;\n    }\n    .preorder-label {\n        display: block;\n        text-transform: uppercase;\n        font-size: var(--font-size--xs);\n        font-weight: bold;\n        opacity: .4;\n    }\n    .caption-final-pre {\n        font-size: var(--font-size--xs);\n        opacity: .4;\n        font-style: italic;\n        display: block;\n        margin-top: var(--gap-xs);\n    }\n{% endstyle %}\n  {% assign selling_plan = preorder[0].selling_plans[0] %}\n  {% if selling_plan.checkout_charge.value_type == 'percentage' %}\n    {% assign original_price = product.price %}\n    {% assign pay_now_percent = selling_plan.checkout_charge.value %}\n    {% assign final_percent = 100 | minus: pay_now_percent %}\n\n    {% assign pay_now_amount = original_price | times: pay_now_percent | divided_by: 100 %}\n    {% assign final_amount = original_price | times: final_percent | divided_by: 100 %}\n\n    <div class=\"preorder-group\">\n        <div>\n            <span class=\"preorder-label\">Pre-Order Payment Plan</span>\n        </div>\n        <div class=\"flex-price-pre\">\n            <span class=\"text-pre-price\">\n                Pay Today\n            </span>\n            <span class=\"discounted-pre price-pre\">\n                {{ pay_now_amount | money }}\n            </span>\n        </div>\n        <div>\n            <div class=\"flex-price-pre\">\n                <span class=\"text-pre-price\">\n                    Final payment\n                </span>\n                <span class=\"price-pre\">\n                    {{ final_amount | money }}\n                </span>\n            </div>\n            <span class=\"caption-final-pre\">\n                Charged when shipped Q1 2026\n            </span>\n        </div>\n    </div>\n  {% endif %}\n{% endif %}"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_xpVMaM",
-                "price_tVjtKg"
+                "price_tVjtKg",
+                "custom_liquid_VVczYC"
               ]
             },
             "group_m63dzc": {
@@ -254,7 +269,7 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 0,
+                    "padding-block-start": 14,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0,
@@ -333,6 +348,7 @@
             "payment_icons_aD8JpC": {
               "type": "payment-icons",
               "name": "t:names.payment_icons",
+              "disabled": true,
               "settings": {
                 "horizontal_alignment": "center",
                 "gap": 10,
@@ -340,6 +356,32 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "ai_gen_block_5dd4c88_KqN3qf": {
+              "type": "ai_gen_block_5dd4c88",
+              "settings": {
+                "row_1_text": "FREE Shipping in Continental U.S.",
+                "row_1_icon": "truck",
+                "row_2_text": "FREE Costume Keeper™ ($100 value)",
+                "row_2_icon": "tag",
+                "row_3_text": "$10 Donated to Dancers Against Cancer",
+                "row_3_icon": "heart",
+                "row_4_text": "",
+                "row_4_icon": "clock",
+                "row_5_text": "",
+                "row_5_icon": "tag",
+                "row_gap": 12,
+                "icon_text_gap": 12,
+                "section_padding": 0,
+                "icon_size": 32,
+                "icon_border_radius": 26,
+                "icon_color": "#00abc5",
+                "icon_background_color": "#e0f7fa",
+                "text_size": 14,
+                "text_color": "#30384a",
+                "background_color": "#ffffff"
               },
               "blocks": {}
             },
@@ -594,6 +636,7 @@
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "payment_icons_aD8JpC",
+            "ai_gen_block_5dd4c88_KqN3qf",
             "text_aEtTtq",
             "accordion_7BYVrD"
           ]

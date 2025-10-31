@@ -10,8 +10,8 @@
 {
   "current": {
     "logo": "shopify://shop_images/logo-fit.png",
-    "logo_height": 100,
-    "logo_height_mobile": 55,
+    "logo_height": 74,
+    "logo_height_mobile": 60,
     "favicon": "shopify://shop_images/logo-fit.png",
     "type_body_font": "poppins_n4",
     "type_subheading_font": "poppins_n5",
@@ -301,8 +301,8 @@
         "settings": {
           "background": "rgba(0,0,0,0)",
           "foreground_heading": "#ffffff",
-          "foreground": "#f2f2f2",
-          "primary": "#eaeaea",
+          "foreground": "#ffffff",
+          "primary": "#ffffff",
           "primary_hover": "#ffffffb0",
           "border": "#e6e6e6",
           "shadow": "#000000",

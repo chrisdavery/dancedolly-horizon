@@ -164,7 +164,7 @@ product-custom-property-component:has([type="hidden"]) {
 }
 
 .product-information__grid--limit-details .product-details>.group-block {
-    max-width: 30rem !important;
+    max-width: 31rem !important;
 }
 
 slideshow-controls:has(.slideshow-controls__dots) {
@@ -177,6 +177,10 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
 
 .shopify-policy__container {
     padding-block: var(--padding-xl) var(--padding-3xl) !important;
+}
+
+.account-button__icon {
+    fill: currentColor;
 }
 
 @media (max-width: 1600px) and (min-width: 750px) {

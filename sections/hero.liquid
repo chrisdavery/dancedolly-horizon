@@ -197,6 +197,14 @@
     --blur-opacity: {{ section.settings.reflection_opacity | divided_by: 100.0 }};
     {% if section.settings.section_height == 'custom' %}
       --hero-min-height: {{ section.settings.section_height_custom }}svh;
+    {% elsif section.settings.section_height == 'adapt_media_height' and has_media %}
+      {% if media_type_1 == 'image' %}
+        --hero-min-height: calc(100svw / {{ section.settings.image_1.aspect_ratio }});
+        --hero-mobile-min-height: {{ section.settings.section_mobile_height_custom }}svh;
+      {% elsif media_type_1 == 'video' %}
+        --hero-min-height: calc(100svw / {{ section.settings.video_1.aspect_ratio }});
+        --hero-mobile-min-height: {{ section.settings.section_mobile_height_custom }}svh;
+      {% endif %}   
     {% elsif section.settings.section_height == "full-screen" %}
        --hero-min-height: 100svh;
     {% else %}
@@ -277,6 +285,12 @@
   .hero {
     position: relative;
     min-height: calc(var(--hero-min-height) - var(--hero-height-offset));
+
+    @media (max-width: 749px) {
+      &[style*="--hero-mobile-min-height"] {
+        min-height: calc(var(--hero-mobile-min-height) - var(--hero-height-offset));
+      }
+    }
   }
 
   .hero[data-shopify-visual-preview] {
@@ -703,6 +717,10 @@
       "label": "t:settings.height",
       "options": [
         {
+          "value": "adapt_media_height",
+          "label": "Adapt to first media"
+        },
+        {
           "value": "auto",
           "label": "t:options.auto"
         },
@@ -739,6 +757,17 @@
       "default": 50,
       "unit": "%",
       "visible_if": "{{ section.settings.section_height == 'custom' }}"
+    },
+    {
+      "type": "range",
+      "id": "section_mobile_height_custom",
+      "label": "Mobile custom height",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 50,
+      "unit": "%",
+      "visible_if": "{{ section.settings.section_height == 'adapt_media_height' }}"
     },
     {
       "type": "header",
