@@ -3651,7 +3651,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h3>Stow-away wheels</h3>",
+                "text": "<h3>Stow-away wheels and costume rod</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -3684,7 +3684,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>All wheels detach and store neatly in the base when not in use.</p>",
+                "text": "<p>The costume rod and wheels detach and store neatly in the base when not in use.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
