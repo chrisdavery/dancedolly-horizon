@@ -239,6 +239,7 @@
         "section_width": "page-width",
         "section_height": "auto",
         "section_height_custom": 50,
+        "section_mobile_height_custom": 50,
         "color_scheme": "scheme-5",
         "toggle_overlay": false,
         "overlay_color": "#00000026",
@@ -1496,6 +1497,14 @@
                 "css_class": ""
               },
               "blocks": {
+                "custom_liquid_wazWA3": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
+                  "settings": {
+                    "custom_liquid": "<div class=\"\n            product-badges__badge product-badges__badge--rectangle\n            color-scheme-5\n          \" style=\"\n    --badge-border-radius: 100px;\n    --badge-font-family: var(--font-body--family); --badge-font-weight: var(--font-body--weight); --badge-text-transform: uppercase;\n  \">\n          Pre-Order Special\n        </div>"
+                  },
+                  "blocks": {}
+                },
                 "product_title_f8F9kK": {
                   "type": "product-title",
                   "name": "t:names.title",
@@ -1555,6 +1564,7 @@
                 }
               },
               "block_order": [
+                "custom_liquid_wazWA3",
                 "product_title_f8F9kK",
                 "price_bgXBQe",
                 "custom_liquid_G9mqQd"
