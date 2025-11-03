@@ -125,6 +125,14 @@
                 "css_class": ""
               },
               "blocks": {
+                "custom_liquid_AharmL": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
+                  "settings": {
+                    "custom_liquid": "<div class=\"\n            product-badges__badge product-badges__badge--rectangle\n            color-scheme-5\n          \" style=\"\n    --badge-border-radius: 100px;\n    --badge-font-family: var(--font-body--family); --badge-font-weight: var(--font-body--weight); --badge-text-transform: none;\n  \">\n          Pre-Order Special\n        </div>"
+                  },
+                  "blocks": {}
+                },
                 "text_xpVMaM": {
                   "type": "text",
                   "name": "t:names.title",
@@ -190,6 +198,7 @@
                 }
               },
               "block_order": [
+                "custom_liquid_AharmL",
                 "text_xpVMaM",
                 "price_tVjtKg",
                 "custom_liquid_VVczYC"
