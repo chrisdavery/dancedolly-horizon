@@ -371,7 +371,6 @@
             },
             "ai_gen_block_5dd4c88_KqN3qf": {
               "type": "ai_gen_block_5dd4c88",
-              "disabled": true,
               "settings": {
                 "row_1_text": "FREE Shipping in Continental U.S.",
                 "row_1_icon": "truck",
@@ -390,7 +389,7 @@
                 "icon_border_radius": 26,
                 "icon_color": "#00abc5",
                 "icon_background_color": "#e0f7fa",
-                "text_size": 14,
+                "text_size": 18,
                 "text_color": "#30384a",
                 "background_color": "#ffffff"
               },
