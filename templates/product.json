@@ -745,7 +745,7 @@
         }
       },
       "custom_css": [
-        ".subtext strong, .purple-text {color: #bd18ad;}",
+        ".subtext strong,.purple-text h4 {color: #bd18ad;}",
         "[data-essential-preorder-element=\"payment-details-text\"] {display: none !important;}"
       ],
       "settings": {
