@@ -395,6 +395,39 @@
               },
               "blocks": {}
             },
+            "text_bawTkD": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h4>PRE-ORDER. GIVE BACK. GET ORGANIZED.</h4><p>Lock your spot in the first run. Ships by the end of Q1 2026 - just in time for comp season.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "enable_mobile_size": false,
+                "mobile_font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "custom_mobile_padding": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_aEtTtq": {
               "type": "text",
               "name": "Product description",
@@ -647,6 +680,7 @@
             "buy_buttons_eYQEYi",
             "payment_icons_aD8JpC",
             "ai_gen_block_5dd4c88_KqN3qf",
+            "text_bawTkD",
             "text_aEtTtq",
             "accordion_7BYVrD"
           ]
