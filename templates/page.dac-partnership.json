@@ -1860,17 +1860,17 @@
               },
               "blocks": {}
             },
-            "ai_gen_block_5dd4c88_XULrfX": {
+            "ai_gen_block_5dd4c88_w7pXUF": {
               "type": "ai_gen_block_5dd4c88",
               "settings": {
-                "row_1_text": "FREE Shipping in Continental U.S.",
-                "row_1_icon": "truck",
-                "row_2_text": "FREE Costume Keeper™ ($100 value)",
-                "row_2_icon": "tag",
-                "row_3_text": "$10 Donated to Dancers Against Cancer",
-                "row_3_icon": "heart",
-                "row_4_text": "",
-                "row_4_icon": "clock",
+                "row_1_text": "Dance Dolly + Carry Case",
+                "row_1_icon": "tag",
+                "row_2_text": "FREE Shipping in Continental U.S.",
+                "row_2_icon": "truck",
+                "row_3_text": "FREE Costume Keeper™ ($100 value)",
+                "row_3_icon": "gift",
+                "row_4_text": "$10 Donated to Dancers Against Cancer",
+                "row_4_icon": "heart",
                 "row_5_text": "",
                 "row_5_icon": "tag",
                 "row_gap": 12,
@@ -1880,7 +1880,7 @@
                 "icon_border_radius": 26,
                 "icon_color": "#00abc5",
                 "icon_background_color": "#e0f7fa",
-                "text_size": 14,
+                "text_size": 18,
                 "text_color": "#30384a",
                 "background_color": "#ffffff"
               },
@@ -2138,7 +2138,7 @@
             "buy_buttons_JjybJE",
             "group_tqmDdB",
             "payment_icons_m7hqre",
-            "ai_gen_block_5dd4c88_XULrfX",
+            "ai_gen_block_5dd4c88_w7pXUF",
             "text_PQ4Bwd",
             "accordion_jWPRWH"
           ]
