@@ -687,7 +687,8 @@
         }
       },
       "custom_css": [
-        ".subtext strong {color: #bd18ad;}"
+        ".subtext strong {color: #bd18ad;}",
+        "[data-essential-preorder-element=\"payment-details-text\"] {display: none;}"
       ],
       "settings": {
         "content_width": "content-center-aligned",
