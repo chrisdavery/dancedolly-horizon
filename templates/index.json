@@ -4092,7 +4092,7 @@
         "icons_style": "chevron",
         "icons_shape": "circle",
         "section_width": "page-width",
-        "full_width_on_mobile": false,
+        "full_width_on_mobile": true,
         "gap": 42,
         "color_scheme": "scheme-f7d134e6-ddd6-47fa-9428-1d7c551dd1f0",
         "background_media": "none",
