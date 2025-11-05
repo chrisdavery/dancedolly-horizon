@@ -180,7 +180,7 @@
         "section_mobile_height_custom": 100,
         "color_scheme": "scheme-4",
         "toggle_overlay": true,
-        "overlay_color": "#00000045",
+        "overlay_color": "#00000030",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "blurred_reflection": false,
