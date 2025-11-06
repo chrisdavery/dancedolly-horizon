@@ -4,7 +4,7 @@
 }
 
 @media (max-width: 749px) {
-    :is(.carousel--mobile-full-width) > .resource-list__carousel {
+    :is(.carousel--mobile-full-width) > .resource-list__carousel, :is(.carousel--mobile-full-width) > .custom-section-content {
         grid-column: 1 / -1;
     }
 
