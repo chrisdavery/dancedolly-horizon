@@ -17,6 +17,10 @@
         padding-inline: var(--page-margin);
     }
 
+    .section--mobile-full-width .custom-section-content {
+        grid-column: 1 / -1;
+    }
+
     .mobile-group-column-reverse > .group-block-content {
         flex-direction: column-reverse !important;
     }
