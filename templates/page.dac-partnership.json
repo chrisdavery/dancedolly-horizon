@@ -3216,7 +3216,7 @@
                 "button_BABzUH": {
                   "type": "button",
                   "settings": {
-                    "label": "Visit DAC Website",
+                    "label": "DAC Website",
                     "link": "https://www.imadanceragainstcancer.org/",
                     "open_in_new_tab": false,
                     "style_class": "button",
