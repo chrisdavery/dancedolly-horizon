@@ -339,6 +339,8 @@
         "layout_type": "grid",
         "product_card_size": "large",
         "mobile_product_card_size": "small",
+        "enable_infinite_scroll": true,
+        "products_per_page": 24,
         "product_grid_width": "centered",
         "full_width_on_mobile": false,
         "columns_gap_horizontal": 42,
@@ -443,7 +445,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>15+ years of comps informed every detail for smoother, more enjoyable show days.</p>",
+                "text": "<p>15+ years of dance informed every detail for smoother, more enjoyable competition days.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -568,7 +570,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>Transport any dance bag, pop-up costume rack, fold-flat design—made to survive parking lots, hotel hallways, and fast turnarounds.</p>",
+                "text": "<p>Transport any dance bag, pop-up costume rack, and a fold-flat design. Made to survive parking lots, crowded venues, and fast turnarounds.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -751,7 +753,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "<p>We donate $10 from every Dolly to Dancers Against Cancer (DAC) to support families in our dance community. Together let’s make a diffference! </p>",
+                "text": "<p>We donate $10 from every Dolly to Dancers Against Cancer (DAC) to support families in our dance community. Together let’s make a difference! </p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
