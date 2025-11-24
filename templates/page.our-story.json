@@ -428,7 +428,7 @@
             "text_7fJmJH": {
               "type": "text",
               "settings": {
-                "text": "<p>Rosemary is now 19, a sophomore at UTK and a member of the Boss dance team (Go Vols!). Our younger daughter, Amelia (16), and son, Larry (9), both dance on the <a href=\"https://dcdancefactory.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">DC Dance Factory</span></a> team in Franklin, TN. We love this world, but let’s be real—traveling with dance kids can be stressful.</p><p>Like most families, we’ve invested in countless dance duffle bags with pop-up racks…only to hit the same wall every competition weekend. The wheels are on the short end—not the side you lay down to prep. So the moment you set the bag flat and extend the rack to hang costumes and organize accessories, you’re stuck. That means repacking, juggling armfuls of costumes, or wrestling bulky wardrobe racks that are hard to assemble and harder to steer. It’s a logistical mess at the exact moment when dancers—and parents—need calm.</p>",
+                "text": "<p>Rosemary is now 19, a sophomore at UTK and a member of the Boss dance team (Go Vols!). Our younger daughter, Amelia (16), and son, Larry (9), both dance on the <a href=\"https://dcdancefactory.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">DC Dance Factory</span></a> team in Franklin, TN. We love this world, but let’s be real—traveling with dance kids can be stressful.</p><p>Like most families, we’ve invested in countless dance duffle bags with pop-up racks…only to hit the same wall every competition weekend. The wheels are on the short end—not the side you lay down to prep. So the moment you extend the rack to hang costumes and organize accessories, you’re stuck. That means repacking, juggling armfuls of costumes, or wrestling bulky wardrobe racks and extra bags that are hard to assemble and even harder to steer. It’s a logistical nightmare at the exact moment when dancers—and parents—need calm.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -1069,6 +1069,13 @@
         "full_width_on_mobile": false,
         "gap": 32,
         "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
         "padding-block-start": 72,
         "padding-block-end": 0,
         "custom_mobile_padding": false,
