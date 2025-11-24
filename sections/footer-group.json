@@ -975,7 +975,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Designed by dance parents for dance parents, our mission is to make competition days smooth, organized, and fun — so your kids can take center stage.</p>",
+                "text": "<p>Designed by dance parents for dance parents, our mission is to make competition days smooth, organized, and more fun — so your kids can take center stage.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
