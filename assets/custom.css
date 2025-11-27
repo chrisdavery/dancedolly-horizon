@@ -183,6 +183,10 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
     fill: currentColor;
 }
 
+.cart-discount__button {
+    --button-padding-inline: 18px !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
