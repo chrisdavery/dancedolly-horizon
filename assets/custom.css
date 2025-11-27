@@ -187,6 +187,10 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
     --button-padding-inline: 18px !important;
 }
 
+.cart-discount__input {
+    width: 100%;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
