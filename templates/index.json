@@ -4504,6 +4504,32 @@
                 "padding-block-end": 0
               },
               "blocks": {
+                "slide_B8wPXb": {
+                  "type": "_slide",
+                  "settings": {
+                    "media_type_1": "image",
+                    "image_1": "shopify://shop_images/IDA.Gala.25-26.jpg",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "slide_AYFtP9": {
                   "type": "_slide",
                   "settings": {
@@ -4633,41 +4659,15 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "slide_B8wPXb": {
-                  "type": "_slide",
-                  "settings": {
-                    "media_type_1": "image",
-                    "image_1": "shopify://shop_images/IDA.Gala.25-26.jpg",
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "center",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
+                "slide_B8wPXb",
                 "slide_AYFtP9",
                 "slide_FmrHQd",
                 "slide_7Ud7wP",
                 "slide_JAMqAY",
-                "slide_GxxUBU",
-                "slide_B8wPXb"
+                "slide_GxxUBU"
               ]
             }
           },
