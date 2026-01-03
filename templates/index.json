@@ -688,12 +688,12 @@
                 "button_e8Q7QA": {
                   "type": "button",
                   "settings": {
-                    "label": "Ready. Set. Roll!",
+                    "label": "Meet The Dance Dolly™",
                     "link": "shopify://products/the-dance-dolly-pro",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "custom",
-                    "custom_width": 80,
+                    "custom_width": 95,
                     "width_mobile": "custom",
                     "custom_width_mobile": 100
                   },
