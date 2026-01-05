@@ -1072,7 +1072,8 @@
         "payment_icons_KwY6Gh"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.utilities--blocks-3 {grid-template-columns: auto auto 1fr; }}"
+        "@media screen and (min-width: 750px) {.utilities--blocks-3 {grid-template-columns: auto auto 1fr; }}",
+        "@media (max-width: 749px) {.payment-icons__list {--alignment: center; }}"
       ],
       "settings": {
         "section_width": "page-width",
