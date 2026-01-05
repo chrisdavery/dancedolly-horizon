@@ -76,7 +76,7 @@
                 "type_preset": "h2",
                 "font": "var(--font-heading--family)",
                 "font_size": "1.5rem",
-                "enable_mobile_size": false,
+                "enable_mobile_size": true,
                 "mobile_font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
