@@ -454,11 +454,11 @@
     --blur-opacity: {{ section.settings.reflection_opacity | divided_by: 100.0 }};
     {% if section.settings.section_height == 'custom' %}
       --hero-min-height: {{ section.settings.section_height_custom }}svh;
-    {% elsif section.settings.section_height == 'adapt_media_height' and has_media %}
-      {% if media_type_1 == 'image' %}
+    {% elsif section.settings.section_height == 'adapt_media_height' and section.settings.image_1 %}
+      {% if section.settings.media_type_1 == 'image' %}
         --hero-min-height: calc(100svw / {{ section.settings.image_1.aspect_ratio }});
         --hero-mobile-min-height: {{ section.settings.section_mobile_height_custom }}svh;
-      {% elsif media_type_1 == 'video' %}
+      {% elsif section.settings.media_type_1 == 'video' and section.settings.video_1 %}
         --hero-min-height: calc(100svw / {{ section.settings.video_1.aspect_ratio }});
         --hero-mobile-min-height: {{ section.settings.section_mobile_height_custom }}svh;
       {% endif %}   
