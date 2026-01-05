@@ -201,6 +201,10 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
     width: 100%;
 }
 
+.variant-option--buttons legend {
+    font-size: var(--font-size--md) !important;
+}
+
 @media (max-width: 1600px) and (min-width: 750px) {
     :root {
         --narrow-page-width: 75rem !important;
