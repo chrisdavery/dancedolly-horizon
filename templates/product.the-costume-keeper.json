@@ -25,7 +25,7 @@
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "left",
             "thumbnail_width": 100,
-            "thumbnail_radius": 0,
+            "thumbnail_radius": 6,
             "aspect_ratio": "1",
             "constrain_to_viewport": true,
             "media_fit": "contain",
