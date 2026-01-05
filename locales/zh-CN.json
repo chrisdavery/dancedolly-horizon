@@ -25,7 +25,8 @@
       "comment": "评论",
       "post_success": "感谢您联系我们。我们会尽快回复您。",
       "error_heading": "请调整以下内容："
-    }
+    },
+    "slider_label": "滑块"
   },
   "accessibility": {
     "play_model": "演示 3D 模型",
@@ -46,7 +47,7 @@
     "search_results_count": "找到“{{ query }}”的 {{ count }} 条搜索结果",
     "search_results_no_results": "未找到“{{ query }}”的相关结果",
     "filters": "筛选条件",
-    "account": "打开账户菜单",
+    "account": "账户",
     "cart": "购物车",
     "cart_count": "购物车中的商品总数",
     "filter_count": {
@@ -61,7 +62,6 @@
     "discount": "应用折扣码",
     "discount_menu": "折扣码",
     "discount_applied": "已应用折扣码：{{ code }}",
-    "open_cart_drawer": "打开购物车",
     "inventory_status": "库存状态",
     "pause_video": "暂停视频",
     "localization_region_and_language": "区域和语言选择器",
@@ -70,7 +70,11 @@
     "increase_quantity": "增加数量",
     "quantity": "数量",
     "rating": "此产品的评分是 {{ rating }}/5",
-    "nested_product": "{{ product_title }}（{{ parent_title }}）"
+    "nested_product": "{{ product_title }}（{{ parent_title }}）",
+    "remove": "删除",
+    "view_pricing_info": "查看定价信息",
+    "open_hotspot": "打开热点",
+    "slideshow": "幻灯片"
   },
   "actions": {
     "add_to_cart": "添加到购物车",
@@ -243,6 +247,29 @@
       "previous": "上一页",
       "next": "下一页",
       "page": "第 {{ page }} 页"
+    },
+    "volume_pricing_available": "提供批量定价",
+    "volume_pricing": "批量定价",
+    "at_price_each": "{{ price }}/件",
+    "each": "{{ price }}/件",
+    "each_abbreviation": "单件",
+    "price_at": "价格",
+    "price_range": "价格范围",
+    "item_count_cutoff": "超过 {{ count }} 件商品",
+    "cancel": "取消",
+    "product_subtotal": "产品小计",
+    "quantity_per_item": "/件",
+    "remove_all": "全部删除",
+    "remove_all_items_confirmation": "删除您购物车中的全部 {{ count }} 件商品？",
+    "remove_one_item_confirmation": "从购物车中删除 1 件商品？",
+    "total_items": "商品总数",
+    "variant": "多属性",
+    "variant_total": "多属性总计",
+    "view_cart": "查看购物车",
+    "your_cart": "您的购物车",
+    "items_added_to_cart": {
+      "one": "1 件商品已加入购物车",
+      "other": "{{ count }} 件商品已加入购物车"
     }
   },
   "gift_cards": {
@@ -277,7 +304,15 @@
       "adding_to_cart": "正在添加...",
       "add_to_cart_error": "添加到购物车时出错",
       "sold_out": "售罄",
-      "unavailable": "不可售"
+      "unavailable": "不可售",
+      "quantity_error_max": "此商品上限为 {{ maximum }}",
+      "quantity": "数量",
+      "quantity_increments": "增量为 {{ increment }}",
+      "quantity_minimum": "最少 {{ minimum }} 个",
+      "quantity_maximum": "最多 {{ maximum }} 个",
+      "in_cart": "在购物车中",
+      "default_title": "默认标题",
+      "sticky_add_to_cart": "快速添加到购物车栏"
     }
   },
   "fields": {

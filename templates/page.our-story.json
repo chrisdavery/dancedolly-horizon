@@ -695,7 +695,7 @@
       }
     },
     "carousel_Ddgrx3": {
-      "type": "carousel",
+      "type": "grid-section",
       "blocks": {
         "carousel_card_yPVYXa": {
           "type": "_carousel-card",

@@ -1115,7 +1115,7 @@
       }
     },
     "carousel_NKhx3V": {
-      "type": "carousel",
+      "type": "grid-section",
       "blocks": {
         "carousel_card_4TRXhd": {
           "type": "_carousel-card",
@@ -2759,7 +2759,7 @@
       }
     },
     "carousel_HNmLPN": {
-      "type": "carousel",
+      "type": "grid-section",
       "blocks": {
         "carousel_card_BMegBx": {
           "type": "_carousel-card",

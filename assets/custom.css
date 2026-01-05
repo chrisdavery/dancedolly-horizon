@@ -3,6 +3,16 @@
     height: var(--minimum-touch-target);
 }
 
+
+slideshow-controls.carousel-controls:has(.icon-pause) {
+    justify-content: center !important;
+}
+
+slideshow-controls.carousel-controls .icon-pause,
+slideshow-controls.carousel-controls .icon-play {
+    display: none !important;
+}
+
 :root {
     --icon-size-lg: 2rem !important;
     --font-subheading--family: 'Fresh Mango', serif !important;
@@ -227,9 +237,17 @@ slideshow-controls:has(.slideshow-controls__dots) .slideshow-control {
         grid-column: 1 / -1;
     }
 
-    .carousel--mobile-full-width .resource-list__carousel[style*="--mobile-card-size: 100cqw;"] slideshow-slides {
+    .carousel--mobile-full-width .resource-list__carousel[style*="--mobile-card-size: 100%;"] slideshow-slides {
         padding-inline: 0 !important;
         scroll-padding-inline-start: 0;
+    }
+
+    :is(.carousel--mobile-full-width) .featured-blog-posts-card__content {
+        padding-inline: var(--page-margin);
+    }
+
+    .section--mobile-full-width .custom-section-content {
+        grid-column: 1 / -1;
     }
 
     .mobile-group-column-reverse > .group-block-content {

@@ -15,10 +15,18 @@
 
 {% liquid
   assign slideshow_ref = ref | default: 'resourceListCarousel'
+
   if settings.section_width == 'page-width'
     assign slideshow_gutters = 'start end'
+    assign gutter_style = '--gutter-slide-width: var(--util-page-margin-offset);'
   else
     assign slideshow_gutters = null
+    assign gutter_style = '--gutter-slide-width: 0px;'
+  endif
+
+  assign show_arrows = false
+  if settings.icons_style != 'none'
+    assign show_arrows = true
   endif
 %}
 
@@ -32,22 +40,36 @@
   {% endfor %}
 {% endcapture %}
 
-{% if settings.icons_style != 'none' %}
-  {% capture slideshow_arrows %}
-    {% render 'slideshow-arrows', icon_style: settings.icons_style, icon_shape: settings.icons_shape %}
+{% if settings.arrow_position == true %}
+  {% assign arrows_position = 'top' %}
+{% endif %}
+
+{% unless settings.hide_arrows == true %}
+  {% if settings.icons_style != 'none' %}
+    {% capture slideshow_arrows %}
+      {% render 'slideshow-arrows', icon_style: settings.icons_style, icon_shape: settings.icons_shape, arrows_position: arrows_position %}
+    {% endcapture %}
+  {% endif %}
+{% endunless %}
+
+{% if settings.enable_dots == true and slide_count > 1 %}
+  {% capture controls %}
+    {%- render 'slideshow-controls',
+      style: 'dots',
+      autoplay: settings.autoplay,
+      item_count: slide_count,
+      show_arrows: false,
+      arrows_on_media: false,
+      controls_on_media: false,
+      pagination_position: 'center',
+      class: 'carousel-controls'
+    -%}
   {% endcapture %}
 {% endif %}
 
 <div
   class="resource-list__carousel"
-  style="
-    {% if settings.section_width == 'page-width' %}
-      --gutter-slide-width: var(--util-page-margin-offset);
-    {% elsif settings.section_width == 'full-width' %}
-      --gutter-slide-width: 0px;
-    {% endif %}
-    --slide-width-max: {{ slide_width_max | default: '300px' }};
-  "
+  style="{{ gutter_style }} --slide-width-max: {{ slide_width_max | default: '300px' }};"
 >
   {% render 'slideshow',
     ref: slideshow_ref,
@@ -55,11 +77,16 @@
     slides: slides,
     autoplay: autoplay,
     autoplay_speed: autoplay_speed,
-    slideshow_arrows: slideshow_arrows,
+    show_arrows: show_arrows,
+    icon_style: settings.icons_style,
+    icon_shape: settings.icons_shape,
     auto_hide_controls: false,
     infinite: false,
     initial_slide: 0,
     slide_count: slide_count,
-    slideshow_gutters: slideshow_gutters
+    slideshow_gutters: slideshow_gutters,
+    controls: controls,
+    autoplay: settings.autoplay,
+    autoplay_speed: settings.autoplay_speed
   %}
 </div>

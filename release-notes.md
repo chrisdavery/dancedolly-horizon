@@ -1,36 +1,29 @@
-# Release Notes - Version 3.0.1
+# Release Notes - Version 3.2.1
 
-This release focuses on accessibility improvements across the theme, adds infinite scroll for product grids, and fixes several bugs related to product selection and display.
+This release delivers extensive performance optimizations across many components and resolves issues in the menu drawer, cart, and sticky add-to-cart behavior.
 
 ## What's Changed
 
-### Added
-
-- [Product grid] Added optional infinite scroll
-
-### Changed
-
-- [Password page] Made footer a section of its own
-
 ### Fixes and improvements
 
-- [Gift card] Fixed gift card recipient form character count color inheritance
-- [Quantity rules] Fixed bug with how numbers were being compared
-- [Product cards] Fixed missing image preview on swatch mouseover
-- [Variant picker] Improved variant picker motion
-- [Product] Fixed variant selection when using More payment options without add-to-cart button
-- [Quick add] Fixed Quick Add modal showing up when product info is missing
-- [Hero] Fixed logic for blurred reflection slider and toggle
-- [Collection link] Fixed text wrapping on mobile
-- [Header drawer] Fixed expand first group settings
-- [Blog] Fixed blog post template app blocks
-- [Accessibility] Enhanced mobile account drawer accessibility
-- [Accessibility] Improved cart launcher accessibility
-- [Accessibility] Improved accessibility for popovers
-- [Accessibility] Added explicit "Close" button to search dialog
-- [Accessibility] Improved "Search" button accessibility
-- [Accessibility] Improved localization component accessibility
-- [Accessibility] Improved contrast for the predictive search "Clear" button
-- [Accessibility] Added h1 tags to page templates for SEO and accessibility
-- [Accessibility] Enhanced dialog accessibility with ARIA labeling
-- [Performance] Improved performance when opening / closing dialogs
+- [Performance] Improved Liquid rendering performance by reducing snippet use
+- [Performance] Improved overall CSS performance
+- [Performance] Improved animation performance
+- [Performance] Improved header, email signup, quick-add, meta color, predictive search, hero banner, fly-to-cart, jumbo text, and slideshow performance
+- [Performance] Improved page load speed when page transitions are turned off
+- [Performance] Disabled all view transitions for low-powered devices
+- [Performance] Improved interaction performance for various components
+- [Menu drawer] Fixed menu drawer not closing on Firefox
+- [Footer] Fixed footer copyright text wrapping
+- [Quick add] Fixed quick add modal variant selector appearance issues after opening multiple modals
+- [Collection cards] Collection cards in lists and grids match height of tallest card
+- [Slideshow] Fixed slideshow controls visibility on transparent product images
+- [Marquee] Fixed marquee jump on mobile scroll
+- [Sticky add to cart] Polished sticky add to cart behaviors
+- [Cart drawer] Entire cart drawer becomes scrollable when its footer is too tall
+- [Cart drawer] Addressed UI inconsistencies in the cart drawer
+- [Gift cards] Fixed "copy gift card code" button
+- [Cart] Fixed discount field sizing for narrow viewports
+- [Blog] Removed section title uppercase styling
+- [Editor] Added recommended blocks to Slideshow and Layered slideshow
+- [Editor] Improved the clarity of a number of labels in the editor

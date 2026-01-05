@@ -2258,7 +2258,7 @@
       }
     },
     "carousel_Rh7mmH": {
-      "type": "carousel",
+      "type": "grid-section",
       "blocks": {
         "carousel_card_Mc647n": {
           "type": "_carousel-card",
