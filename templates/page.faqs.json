@@ -773,7 +773,7 @@
                 "accordion_row_pqTy9F": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Can I buy the Dance Box later?",
+                    "heading": "Can I buy the Costume Keeper later?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -782,7 +782,7 @@
                     "text_8bAKtR": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Absolutely! It’s available as an add-on anytime, and for a limited time, every Dance Dolly Pro pre-order between 10/20/25 and 12/31/25 includes a free Costume Keeper box valued at $100.</p>",
+                        "text": "<p>Absolutely! It’s available as an add-on anytime, and for a limited time, every Dance Dolly Pro pre-order includes a free Costume Keeper box valued at $100.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
