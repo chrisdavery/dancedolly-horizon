@@ -30,7 +30,7 @@
         "announcement_yFwG8T": {
           "type": "_announcement",
           "settings": {
-            "text": "<strong>Plus Free Shipping in the Continental U.S. + Free Costume Keeper™ ($100 Value)                            </strong>",
+            "text": "<strong>Plus Free Shipping in the Continental U.S. + Free Costume Keeper™ ($140 Value)                            </strong>",
             "link": "shopify://products/the-dance-dolly-pro",
             "font": "var(--font-accent--family)",
             "font_size": "1rem",
@@ -50,7 +50,7 @@
         ".announcement-bar {border: 0;}",
         ".section-background {background: linear-gradient(to right, #00abc5, #ed0973);}",
         ".announcement-bar__slides {width: 100%;}",
-        "@media (max-width: 749px) {.announcement-bar__text {font-size: var(--font-size--xs);}}"
+        "@media (max-width: 749px) {.announcement-bar__text {font-size: var(--font-size--xs); }}"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
