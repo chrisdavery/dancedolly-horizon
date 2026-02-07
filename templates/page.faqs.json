@@ -966,7 +966,7 @@
                     "text_HBNmiq": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our Pre-Order Special will ship free, but it needs to be ordered no later than 12/31/25. Standard shipping rates apply at checkout for any other items.</p>",
+                        "text": "<p>Our Pre-Order Special ships FREE ($40 value). Standard shipping rates apply at checkout for any other items.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
